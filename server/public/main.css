@@ -14,10 +14,33 @@ body {
     overflow-x: hidden;
 }
 
+/* ------ Header ------ */
+
+.background {
+	margin: 0 auto;
+	height: 100vh;
+	width: auto;
+	background-size: cover;
+	position: relative;
+}
 #headerPic {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(./Images/Header-Pic.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(./Images/Header-Pic.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
-    background-attachment: fixed
+    background-attachment: fixed;
+}
+
+/* ------ Portfolio ------ */
+
+#portfolioPic {
+    
+    height: 45vh;
+    width: auto;
+}
+
+#commissionPic {
+    
+    height: 45vh;
+    width: auto;
 }
