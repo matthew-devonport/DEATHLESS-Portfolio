@@ -7,8 +7,10 @@ class Header extends React.Component {
     render() {
         return (
             <React.Fragment>
-            <div className='background' id='headerPic'>
-            </div>
+          <div className="header">
+          <div className='background' id='headerPic'></div>   
+          </div>
+          
             </React.Fragment>
         )
     }

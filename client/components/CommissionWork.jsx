@@ -8,7 +8,7 @@ class CommissionWork extends React.Component {
         return (
             <React.Fragment>
             <div>
-                <img src='./IMAGES/Commission-Pics-Logo.jpg'  id='commissionPic'></img>
+            <div id='commissionPic'></div>
             </div>
             </React.Fragment>
         )

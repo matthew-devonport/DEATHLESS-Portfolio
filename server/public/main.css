@@ -5,42 +5,77 @@
 
 html,
 body {
-    background-color: #fff;
     color: #c79d33;
     font-family: 'Lato', 'Arial', 'sans-serif';
     font-weight: 400;
     font-size: 20px;
     text-rendering: optimizeLegibility;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 /* ------ Header ------ */
 
+.header {
+    height: 100vh;
+}
+
 .background {
 	margin: 0 auto;
-	height: 100vh;
-	width: auto;
-	background-size: cover;
+	height: 100%;
+    width: auto;
+    max-width: 100%;
+	background-size: contain;
 	position: relative;
 }
+
+#backgroundPic {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(./Images/Header-Pic.jpg);
+    background-size: cover;
+    height: 10vh;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
 #headerPic {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(./Images/Header-Pic.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: top;
     height: 100vh;
     background-attachment: fixed;
 }
 
+
 /* ------ Portfolio ------ */
 
 #portfolioPic {
-    
+    background-image: url(./Images/Portfolio-Pics-Logo.jpg);
     height: 45vh;
     width: auto;
+    background-size: cover;
+
 }
 
 #commissionPic {
     
+    background-image: url(./Images/Commission-Pics-Logo.jpg);
     height: 45vh;
     width: auto;
+    background-size: cover;
+
+
+}
+
+
+
+
+/* ------ Footer ------ */
+#footer {
+    background-color: black;
+	margin: 0 auto;
+	height: 100%;
+    width: auto;
+    max-width: 100%;
+	background-size: contain;
+	position: relative;
 }
