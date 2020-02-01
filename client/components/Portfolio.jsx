@@ -8,7 +8,7 @@ class Portfolio extends React.Component {
         return (
             <React.Fragment>
             <div clasName="row app-screen">
-                <div id='portfolioPic'></div>
+            <img src='IMAGES/Portfolio-Pics-Logo.jpg' id='portfolioPic'></img>
             </div>
             </React.Fragment>
         )
