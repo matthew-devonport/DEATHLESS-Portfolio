@@ -8,7 +8,9 @@ class Header extends React.Component {
         return (
             <React.Fragment>
           <div className="header">
-          <div className='background' id='headerPic'></div>   
+          <div className='background' id='headerPic'>
+              <img src="IMAGES/Instagram-Icon.png" className="instaIcon"></img>
+              </div>   
           </div>
           
             </React.Fragment>

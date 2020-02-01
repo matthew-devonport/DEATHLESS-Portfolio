@@ -61,6 +61,13 @@ h1 {
     background-attachment: fixed;
 }
 
+.instaIcon {
+    padding-left: 3vh;
+    padding-top: 2vh;
+    width: 5vh;
+    float: left;
+
+}
 
 /* ------ Portfolio ------ */
 
@@ -97,7 +104,10 @@ h1 {
 }
 
 .commissionPic:hover {
-    opacity: 0.3;  
+    opacity: 0.3;
+    width: '100%';
+    height: 'auto';
+    background-color: 'black';  
 }
 
 #commissionWork {
