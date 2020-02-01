@@ -11,10 +11,11 @@ class Home extends React.Component {
     return (
       <div>
       <Header />
- 
+      <h1>PORTFOLIO</h1>
       <Portfolio />
       <div className='background' id='backgroundPic'>
       </div>
+      <h1>COMMISSION WORK</h1>
       <CommissionWork />
       <Footer />
       
