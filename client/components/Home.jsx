@@ -13,10 +13,11 @@ class Home extends React.Component {
       <Header />
       <h1>PORTFOLIO</h1>
       <Portfolio />
-      <div className='background' id='backgroundPic'>
+      <div className='background' id='backgroundMidPic'>
       </div>
       <h1>COMMISSION WORK</h1>
       <CommissionWork />
+      <div className='background' id='backgroundBottomPic'></div>
       <Footer />
       
       </div>
