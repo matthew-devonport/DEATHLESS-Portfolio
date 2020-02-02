@@ -1,6 +1,6 @@
 import React from 'react'
 
-class CommissionWorkPage extends React.Component {
+class PortfolioWorkPage extends React.Component {
   
     
     render() {
@@ -49,4 +49,4 @@ class CommissionWorkPage extends React.Component {
     }
 }
 
-export default CommissionWorkPage
+export default PortfolioWorkPage
