@@ -9,15 +9,16 @@ class CommissionWorkPage extends React.Component {
              <div
              onLoad={four} 
              className='background headerPic'>
-                 <div class="row">
-  <div class="picColumn thumbPics">
-    <img src="/IMAGES/Commission-Work-Pics/1.jpg"></img>
-    <img src="rocks.jpg"></img>
-    <img src="falls2.jpg"></img>
-    <img src="paris.jpg"></img>
-    <img src="nature.jpg"></img>
-    <img src="mist.jpg"></img>
-    <img src="paris.jpg"></img>
+                 <div class="picRow">
+  <div class="picColumn">
+    <img src="/IMAGES/Commission-Work-Pics/1-1.jpg" className="thumbPics"></img>
+    <img src="/IMAGES/Commission-Work-Pics/2-1.jpg" className="thumbPics"></img>
+    <img src="/IMAGES/Commission-Work-Pics/3-1.jpg" className="thumbPics"></img>
+    <img src="/IMAGES/Commission-Work-Pics/4-1.jpg" className="thumbPics"></img>
+    <img src="/IMAGES/Commission-Work-Pics/5-1.jpg" className="thumbPics"></img>
+    <img src="/IMAGES/Commission-Work-Pics/6-1.jpg" className="thumbPics"></img>
+    <img src="/IMAGES/Commission-Work-Pics/7-1.jpg" className="thumbPics"></img>
+    <img src="/IMAGES/Commission-Work-Pics/8-1.jpg" className="thumbPics"></img>
   </div>
   </div>
  

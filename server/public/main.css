@@ -1,6 +1,7 @@
   
 * {
-	margin: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 html,
@@ -103,6 +104,7 @@ h1 {
     text-align: center;
     opacity: 0;
     transition: all 0.6s ease;
+    cursor: pointer;
 
 }
 
@@ -137,6 +139,7 @@ h1 {
     text-align: center;
     opacity: 0;
     transition: all 0.6s ease;
+    cursor: pointer;
 
 }
 
@@ -170,7 +173,7 @@ h1 {
 .picRow {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 4px;
+    padding: 0 5px;
   }
   
   .picColumn {
@@ -183,7 +186,9 @@ h1 {
     vertical-align: middle;
   }
 
-  .thumbpics {
-      width: 10%;
-      height: auto
+  .thumbPics {
+      width: 12%;
+      height: auto;
+      margin: 5px;
+      cursor: pointer;
   }
