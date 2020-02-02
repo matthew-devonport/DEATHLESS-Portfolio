@@ -172,38 +172,28 @@ h1 {
 
 .picRow {
     display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
+    flex-flow: row;
+    padding: 0 20vh;
+    flex-direction: row;
+    align-content: flex-start;  
   
-  }
+}
   
   .picColumn {
     flex: 25%;
     max-width: 25%;
-    padding: 0 4px;
-    
+    padding: 0 4px;   
   }
   
   .picColumn img {
-    margin-top: 8px;
-    vertical-align: middle;
+    margin-top: 10px;
     width: 100%;
-   
-  }
-
-  .thumbPics {
-      width: 10%;
-      height: auto;
-      /* margin: 5px; */
-      cursor: pointer;
-      justify-content: space-evenly
+    align-self: flex-start;
+    cursor: pointer;
   }
 
   .pageBackPic {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(./Images/Header-Pic.jpg);
-    /* background-size: cover; */
     background-position: top;
-    /* height: 100vh; */
     background-attachment: fixed;
-    max-width: 100%;
 }

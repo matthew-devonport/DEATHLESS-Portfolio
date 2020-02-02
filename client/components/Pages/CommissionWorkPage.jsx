@@ -6,9 +6,7 @@ class CommissionWorkPage extends React.Component {
     render() {
         return (
             <React.Fragment>
-             <div
-             onLoad={four} 
-             className='pageBackPic'>
+             <div className='pageBackPic'>
                  <div className="picRow">
   <div className="picColumn">
     <img src="/IMAGES/Commission-Work-Pics/1-1.jpg" className="thumbPics"></img>
@@ -52,14 +50,6 @@ class CommissionWorkPage extends React.Component {
 
             </React.Fragment>
         )
-    }
-}
-
-var elements = document.getElementsByClassName("picColumn");
-var i;
-function four() {
-    for (i = 0; i < elements.length; i++) {
-      elements[i].style.flex = "25%";
     }
 }
 
