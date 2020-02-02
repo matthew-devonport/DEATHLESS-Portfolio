@@ -173,29 +173,35 @@ h1 {
 .picRow {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 5px;
+    padding: 0 4px;
+  
   }
   
   .picColumn {
-    flex: 50%;
+    flex: 25%;
+    max-width: 25%;
     padding: 0 4px;
+    
   }
   
   .picColumn img {
     margin-top: 8px;
     vertical-align: middle;
+    width: 100%;
+   
   }
 
   .thumbPics {
-      width: 12%;
+      width: 10%;
       height: auto;
-      margin: 5px;
+      /* margin: 5px; */
       cursor: pointer;
+      justify-content: space-evenly
   }
 
   .pageBackPic {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(./Images/Header-Pic.jpg);
-    background-size: cover;
+    /* background-size: cover; */
     background-position: top;
     /* height: 100vh; */
     background-attachment: fixed;
