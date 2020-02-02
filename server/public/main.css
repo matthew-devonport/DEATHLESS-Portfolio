@@ -89,7 +89,7 @@ h1 {
 }
 
 .portfolioPic::before {
-    content: "Click to see full Portfolio Work!";
+    content: "Click to see more Portfolio Work!";
     background-color: black;
     color: white;
     font-size: 3rem;
@@ -124,7 +124,7 @@ h1 {
 }
 
 .commissionPic::before {
-    content: "Click to see full Commission Work!";
+    content: "Click to see more Commission Work!";
     background-color: black;
     color: white;
     font-size: 3rem;
@@ -192,3 +192,12 @@ h1 {
       margin: 5px;
       cursor: pointer;
   }
+
+  .pageBackPic {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(./Images/Header-Pic.jpg);
+    background-size: cover;
+    background-position: top;
+    /* height: 100vh; */
+    background-attachment: fixed;
+    max-width: 100%;
+}

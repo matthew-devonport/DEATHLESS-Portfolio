@@ -8,7 +8,7 @@ class CommissionWorkPage extends React.Component {
             <React.Fragment>
              <div
              onLoad={four} 
-             className='background headerPic'>
+             className='pageBackPic'>
                  <div class="picRow">
   <div class="picColumn">
     <img src="/IMAGES/Commission-Work-Pics/1-1.jpg" className="thumbPics"></img>
@@ -19,6 +19,23 @@ class CommissionWorkPage extends React.Component {
     <img src="/IMAGES/Commission-Work-Pics/6-1.jpg" className="thumbPics"></img>
     <img src="/IMAGES/Commission-Work-Pics/7-1.jpg" className="thumbPics"></img>
     <img src="/IMAGES/Commission-Work-Pics/8-1.jpg" className="thumbPics"></img>
+    <img src="/IMAGES/Commission-Work-Pics/9-1.jpg" className="thumbPics"></img>
+    <img src="/IMAGES/Commission-Work-Pics/10-1.jpg" className="thumbPics"></img>
+    <img src="/IMAGES/Commission-Work-Pics/11-1.jpg" className="thumbPics"></img>
+    <img src="/IMAGES/Commission-Work-Pics/12-1.jpg" className="thumbPics"></img>
+    <img src="/IMAGES/Commission-Work-Pics/13-1.jpg" className="thumbPics"></img>
+    <img src="/IMAGES/Commission-Work-Pics/14-1.jpg" className="thumbPics"></img>
+    <img src="/IMAGES/Commission-Work-Pics/15-1.jpg" className="thumbPics"></img>
+    <img src="/IMAGES/Commission-Work-Pics/16-1.jpg" className="thumbPics"></img>
+    <img src="/IMAGES/Commission-Work-Pics/17-1.jpg" className="thumbPics"></img>
+    <img src="/IMAGES/Commission-Work-Pics/18-1.jpg" className="thumbPics"></img>
+    <img src="/IMAGES/Commission-Work-Pics/19-1.jpg" className="thumbPics"></img>
+    <img src="/IMAGES/Commission-Work-Pics/20-1.jpg" className="thumbPics"></img>
+    <img src="/IMAGES/Commission-Work-Pics/21-1.jpg" className="thumbPics"></img>
+    <img src="/IMAGES/Commission-Work-Pics/22-1.jpg" className="thumbPics"></img>
+    <img src="/IMAGES/Commission-Work-Pics/23-1.jpg" className="thumbPics"></img>
+
+
   </div>
   </div>
  
