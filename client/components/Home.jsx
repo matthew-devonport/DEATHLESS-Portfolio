@@ -18,10 +18,12 @@ class Home extends React.Component {
       </div>
       <h1>COMMISSION WORK</h1>
       <CommissionWork />
+      <div className='background' id='backgroundMidPic'>
+      </div>
+      <h1>DEATHLESS STORE</h1>
+      <Shop />
       <div className='background' id='backgroundBottomPic'> 
       </div>
-      <h1>SHOP</h1>
-      <Shop />
       <Footer />
       
       </div>
