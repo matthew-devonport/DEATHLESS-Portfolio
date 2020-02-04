@@ -9,8 +9,8 @@ class App extends React.Component {
   render () {
     return (
       <div>
-      {/* <Home /> */}
-      <CommissionWorkPage />
+      <Home />
+      {/* <CommissionWorkPage /> */}
       </div>
       
     )

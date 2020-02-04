@@ -3,6 +3,7 @@ import Header from './Header'
 import Portfolio from './Portfolio'
 import CommissionWork from './CommissionWork'
 import Footer from './Footer'
+import Shop from './Shop'
 
 class Home extends React.Component {
  
@@ -17,7 +18,10 @@ class Home extends React.Component {
       </div>
       <h1>COMMISSION WORK</h1>
       <CommissionWork />
-      <div className='background' id='backgroundBottomPic'></div>
+      <div className='background' id='backgroundBottomPic'> 
+      </div>
+      <h1>SHOP</h1>
+      <Shop />
       <Footer />
       
       </div>
