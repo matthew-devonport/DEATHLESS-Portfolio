@@ -1,5 +1,6 @@
 import React from 'react'
 import PagesHeader from './PagesHeader'
+import Footer from '../Footer'
 
 class CommissionWorkPage extends React.Component {
   
@@ -45,6 +46,7 @@ class CommissionWorkPage extends React.Component {
   </div>
   </div>
              </div> 
+             <Footer />
             </React.Fragment>
         )
     }

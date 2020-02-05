@@ -18,7 +18,7 @@ class Footer extends React.Component {
             </div>
             <div className="row">
              <p className="copyrightText">
-                Copyright &copy; 2020 by Matt Parry Illustrations. All rights reserved.
+                Copyright &copy; 2020 by Deathless Studio. All rights reserved.
              </p>
             </div> 
         </footer></div>   
