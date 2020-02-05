@@ -10,7 +10,6 @@ class CommissionWorkPage extends React.Component {
               
              <div className='pageBackPic'>
                  <PagesHeader />
-                
                  <div className="picRow">
   <div className="picColumn">
     <img src="/IMAGES/Commission-Work-Pics/1-1.jpg"></img>

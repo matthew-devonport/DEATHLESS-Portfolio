@@ -36,9 +36,6 @@ h1 {
 
 /* ------ Header ------ */
 
-.header {
-    height: 100vh;
-}
 
 .background {
 	margin: 0 auto;
@@ -80,7 +77,7 @@ h1 {
     width: 5%;
     float: left;
     cursor: pointer;
-    position: absolute;
+    position: relative;
 
 }
 
@@ -90,10 +87,8 @@ h1 {
     margin-right: auto;
     height: auto;
     width: 50%;
-    margin-bottom: 20px;
   }
 
- 
 /* ------ Portfolio Logo ------ */
 
 .portfolioPic {
