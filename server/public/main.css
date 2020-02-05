@@ -71,7 +71,7 @@ h1 {
     background-attachment: fixed;
 }
 
-.instaIcon {
+/* .instaIcon {
     padding-left: 3vh;
     padding-top: 2vh;
     width: 5%;
@@ -79,7 +79,7 @@ h1 {
     cursor: pointer;
     position: relative;
 
-}
+} */
 
 .centerImg {
     display: block;
