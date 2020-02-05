@@ -85,14 +85,15 @@ h1 {
 }
 
 .centerImg {
-    display: flex;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     height: auto;
     width: 50%;
-    position: relative;
+    margin-bottom: 20px;
   }
 
+ 
 /* ------ Portfolio Logo ------ */
 
 .portfolioPic {
@@ -225,7 +226,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     padding: 0 20px;
-    justify-content: center;  
+    justify-content: center;
 
   
 }
@@ -252,6 +253,9 @@ h1 {
     background-position: top;
     background-attachment: fixed;
 }
+
+
+
 
 /* ------ RESPONSIVE Work Page ------ /*
 

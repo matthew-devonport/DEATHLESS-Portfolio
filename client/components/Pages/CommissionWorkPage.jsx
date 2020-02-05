@@ -7,8 +7,10 @@ class CommissionWorkPage extends React.Component {
     render() {
         return (
             <React.Fragment>
+              
              <div className='pageBackPic'>
                  <PagesHeader />
+                
                  <div className="picRow">
   <div className="picColumn">
     <img src="/IMAGES/Commission-Work-Pics/1-1.jpg"></img>
@@ -43,9 +45,7 @@ class CommissionWorkPage extends React.Component {
     <img src="/IMAGES/Commission-Work-Pics/24-1.jpg"></img>
   </div>
   </div>
- 
-             </div>
-
+             </div> 
             </React.Fragment>
         )
     }
