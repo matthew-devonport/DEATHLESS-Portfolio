@@ -77,10 +77,21 @@ h1 {
 .instaIcon {
     padding-left: 3vh;
     padding-top: 2vh;
-    width: 5vh;
+    width: 5%;
     float: left;
+    cursor: pointer;
+    position: absolute;
 
 }
+
+.centerImg {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 50%;
+    position: relative;
+  }
 
 /* ------ Portfolio Logo ------ */
 
