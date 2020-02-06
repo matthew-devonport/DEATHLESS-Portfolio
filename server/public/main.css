@@ -271,3 +271,46 @@ h1 {
       max-width: 100%;
     }
   }
+
+  /* ------ Pop Up Box ------ */
+
+  #popup-overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    transition: opacity 500ms;
+  }
+  
+  #popup-link-box {
+      cursor: pointer;
+  }
+  
+  #popup {
+    width: 70vw;
+    height: 70vh;
+    margin-left: 10vw;
+    margin-top: 10vh;
+    background: #fff;
+    border-radius: 5vw;
+    padding: 5vh 5vw;
+    transition: all 1s ease-in-out;
+  }
+  
+  #popup-close {
+    position: absolute;
+    top: 15vh;
+    right: 15vw;
+    transition: all 200ms;
+    font-size: 5vw;
+    font-weight: bold;
+    text-decoration: none;
+      color: #333;
+      cursor: pointer;
+  }
+  
+  #popup-close:hover {
+    color: #6d9297;
+  }
