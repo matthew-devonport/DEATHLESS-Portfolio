@@ -11,9 +11,9 @@ class CommissionWorkPage extends React.Component {
         
   togglePopup(content = '') {
     // Refer to state through a setState function's params
-    this.setState((state, props) => {
+    this.setState((state, props) => ({
       showPopup: !state.showPopup
-        });
+    }));
         this.popupContent = content  
          }  
 
