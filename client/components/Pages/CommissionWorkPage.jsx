@@ -9,10 +9,11 @@ class CommissionWorkPage extends React.Component {
         this.state = { showPopup: false };  
         }  
         
-          togglePopup(content='') {  
-        this.setState({  
-             showPopup: !this.state.showPopup  
-        });
+  togglePopup(content = '') {
+    // Refer to state through a setState function's params
+    this.setState((state, props) => ({
+      showPopup: !state.showPopup
+    }));
         this.popupContent = content  
          }  
 
@@ -60,7 +61,7 @@ class CommissionWorkPage extends React.Component {
   </div>
     </div> 
     <Footer />
-    {this.state.showPopup && <PopUpBox content={this.popupContent} togglePopup={this.togglePopup}
+        {this.state.showPopup && <PopUpBox content={this.popupContent} togglePopup={() => this.togglePopup()} // Make sure its an arrow func here otherwise scope breaks
      />}
             </React.Fragment>
         )
