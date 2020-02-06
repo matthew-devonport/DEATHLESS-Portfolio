@@ -1,7 +1,7 @@
 import React from 'react'
 import PortfolioPagesHeader from './PortfolioPagesHeader'
 import Footer from '../Footer'
-import PopUpBox from '../PopUpBox'
+
 
 class PortfolioWorkPage extends React.Component {
   
