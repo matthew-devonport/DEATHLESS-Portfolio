@@ -1,7 +1,7 @@
 import React from 'react'
 import PagesHeader from './PagesHeader'
 import Footer from '../Footer'
-import PopUpBox from '../PopUpBox'
+import PopUpBox from './PopUpBox'
 
 class CommissionWorkPage extends React.Component {
     constructor(props){  
@@ -9,13 +9,14 @@ class CommissionWorkPage extends React.Component {
         this.state = { showPopup: false };  
         }  
         
-          togglePopup() {  
+          togglePopup(content='') {  
         this.setState({  
              showPopup: !this.state.showPopup  
-        });  
+        });
+        this.popupContent = content  
          }  
 
-popupContent = ''
+
 
     render() {
         return (
@@ -25,7 +26,7 @@ popupContent = ''
                  <PagesHeader />
                  <div className="picRow">
   <div className="picColumn">
-    <a onClick={() => this.setPopup(this.picOne)}><img src="/IMAGES/Commission-Work-Pics/1-1.jpg"></img></a>
+    <a onClick={() => this.togglePopup(this.picOne)}><img src="/IMAGES/Commission-Work-Pics/1-1.jpg"></img></a>
     <img src="/IMAGES/Commission-Work-Pics/2-1.jpg"></img>
     <img src="/IMAGES/Commission-Work-Pics/3-1.jpg"></img>
     <img src="/IMAGES/Commission-Work-Pics/4-1.jpg"></img>
@@ -59,7 +60,7 @@ popupContent = ''
   </div>
     </div> 
     <Footer />
-    {this.state.popupIsShowing && <PopUpBox content={this.popupContent} togglePopup={this.togglePopup}
+    {this.state.showPopup && <PopUpBox content={this.popupContent} togglePopup={this.togglePopup}
      />}
             </React.Fragment>
         )
@@ -69,7 +70,7 @@ popupContent = ''
 
 picOne = (
     <div>
-    <img src="IMAGES/Commission-Work-Pics/1-2.jpg"></img>"    
+    <img src="IMAGES/Commission-Work-Pics/1-2.jpg" className="picOne"></img>    
     </div>
 )    
 }
