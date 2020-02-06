@@ -4,7 +4,7 @@ class PopUpBox extends React.Component {
 
 
   render() {
-    let { content, togglePopup } = this.props
+    let { content, togglePopup} = this.props
     return (
       <React.Fragment>
         <div id='popup-overlay'>     
@@ -14,7 +14,7 @@ class PopUpBox extends React.Component {
             <a id='popup-close' onClick={togglePopup}>
               &times;
             </a>
-        </div>
+        </div>}
       </React.Fragment>
     )
   }
