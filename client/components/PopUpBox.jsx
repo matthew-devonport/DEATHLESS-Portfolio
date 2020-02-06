@@ -2,6 +2,11 @@ import React from 'react'
 
 class PopUpBox extends React.Component {
 
+    setPopup = (content) => {
+        this.togglePopup(),
+        this.popupContent = content
+      }
+
   render() {
     let { content, togglePopup } = this.props
     return (
@@ -20,5 +25,6 @@ class PopUpBox extends React.Component {
     )
   }
 }
+
 
 export default PopUpBox

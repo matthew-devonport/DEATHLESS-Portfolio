@@ -1,10 +1,12 @@
 import React from 'react'
 import PortfolioPagesHeader from './PortfolioPagesHeader'
 import Footer from '../Footer'
+import PopUpBox from '../PopUpBox'
 
 class PortfolioWorkPage extends React.Component {
   
-    
+
+  
     render() {
         return (
             <React.Fragment>
@@ -36,11 +38,16 @@ class PortfolioWorkPage extends React.Component {
     <img src="/IMAGES/Portfolio-Work-Pics/18-1.jpg"></img>
     </div>
   </div>
-             </div>
+  </div>      
 <Footer />
+
+         
             </React.Fragment>
         )
     }
 }
+
+
+
 
 export default PortfolioWorkPage
