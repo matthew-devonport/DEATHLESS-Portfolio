@@ -66,7 +66,7 @@ class CommissionWorkPage extends React.Component {
         <Footer />
         {this.state.popupImageId !== null && (
           <PopUpBox
-            togglePopup={() => this.togglePopup(null)} // Make sure its an arrow func here otherwise scope breaks
+            togglePopup={() => this.togglePopup(null)} 
           >
             <div>
               <img
