@@ -1,19 +1,31 @@
 import React from 'react'
 import PagesHeader from './PagesHeader'
+import Footer from '../Footer'
+import PopUpBox from '../PopUpBox'
 
 class CommissionWorkPage extends React.Component {
-  
-    
+    constructor(props){  
+        super(props);  
+        this.state = { showPopup: false };  
+        }  
+        
+          togglePopup() {  
+        this.setState({  
+             showPopup: !this.state.showPopup  
+        });  
+         }  
+
+popupContent = ''
+
     render() {
         return (
             <React.Fragment>
               
              <div className='pageBackPic'>
                  <PagesHeader />
-                
                  <div className="picRow">
   <div className="picColumn">
-    <img src="/IMAGES/Commission-Work-Pics/1-1.jpg"></img>
+    <a onClick={() => this.setPopup(this.picOne)}><img src="/IMAGES/Commission-Work-Pics/1-1.jpg"></img></a>
     <img src="/IMAGES/Commission-Work-Pics/2-1.jpg"></img>
     <img src="/IMAGES/Commission-Work-Pics/3-1.jpg"></img>
     <img src="/IMAGES/Commission-Work-Pics/4-1.jpg"></img>
@@ -45,10 +57,22 @@ class CommissionWorkPage extends React.Component {
     <img src="/IMAGES/Commission-Work-Pics/24-1.jpg"></img>
   </div>
   </div>
-             </div> 
+    </div> 
+    <Footer />
+    {this.state.popupIsShowing && <PopUpBox content={this.popupContent} togglePopup={this.togglePopup}
+     />}
             </React.Fragment>
         )
-    }
+    } 
+    
+
+
+picOne = (
+    <div>
+    <img src="IMAGES/Commission-Work-Pics/1-2.jpg"></img>"    
+    </div>
+)    
 }
+
 
 export default CommissionWorkPage

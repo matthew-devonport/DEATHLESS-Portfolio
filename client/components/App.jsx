@@ -1,7 +1,7 @@
 import React from 'react'
 import Home from './Home'
 import CommissionWorkPage from './Pages/CommissionWorkPage'
-import CommissionWork from './CommissionWork'
+import PortfolioWorkPage from './Pages/PortfolioWorkPage'
 
 class App extends React.Component {
  
@@ -11,6 +11,8 @@ class App extends React.Component {
       <div>
       {/* <Home /> */}
       <CommissionWorkPage />
+      {/* <PortfolioWorkPage /> */}
+      
       </div>
       
     )

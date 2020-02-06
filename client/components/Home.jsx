@@ -1,9 +1,12 @@
 import React from 'react'
+
+
 import Header from './Header'
 import Portfolio from './Portfolio'
 import CommissionWork from './CommissionWork'
 import Footer from './Footer'
 import Shop from './Shop'
+
 
 class Home extends React.Component {
  
