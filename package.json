@@ -30,7 +30,6 @@
   },
   "dependencies": {
     "express": "^4.16.4"
-
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
