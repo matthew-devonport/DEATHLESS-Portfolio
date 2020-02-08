@@ -10,8 +10,8 @@ class App extends React.Component {
     return (
       <div>
       {/* <Home /> */}
-      <CommissionWorkPage />
-      {/* <PortfolioWorkPage /> */}
+      {/* <CommissionWorkPage /> */}
+      <PortfolioWorkPage />
       
       </div>
       
