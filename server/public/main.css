@@ -67,7 +67,7 @@ h1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(./Images/Header-Pic.jpg);
     background-size: cover;
     background-position: top;
-    height: 100vh;
+    height: 100%;
     background-attachment: fixed;
 }
 
@@ -247,6 +247,9 @@ h1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(./Images/Header-Pic.jpg);
     background-position: top;
     background-attachment: fixed;
+    background-size: cover;
+    /* height: 100%;
+    width: 100%; */
 }
 
 
@@ -270,6 +273,11 @@ h1 {
       flex: 100%;
       max-width: 100%;
     }
+
+    .contact h2 {
+      font-size: 10px;
+    }
+
   }
 
   /* ------ Pop Up Box ------ */
@@ -318,14 +326,14 @@ h1 {
     word-spacing: 4px;
     text-align: center;
     padding-bottom: 8%;
-    color: rgb(195, 57, 245);
+    color: yellow
   }
 
   .formContainer {
     background-image: url(/Images/Commission-Work-Pics/Contact-Form-Pic.jpg);
     background-size: cover;
     background-position: center;
-    color: yellow;
+    color: rgb(195, 57, 245);
     padding: 25px;
     margin: 150px 0;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
@@ -359,6 +367,7 @@ h1 {
   
   .contact textarea {
     height: 40px;
+    width: 500px;
     max-width: 100%;
     resize: none;
     background-color: black;

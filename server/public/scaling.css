@@ -19,7 +19,12 @@
     section {padding: 60px 0;}
     
   
-    .contact-form { width: 80%; }
+    .formContainer {         
+        width: 767px;
+        max-width: 80%; }
+     #formScale {         
+         width: 767px;
+         max-width: 80%; }
       
     .row,
 
@@ -32,11 +37,15 @@
 @media only screen and (max-width:767px) {
     body { font-size: 16px; }
     section { padding: 30px 0; }
-    
+    .centerImg { width: 100% }
     .row,
     .hero-text-box { padding: 0 4%; }
-    
-    
+    .formContainer {         
+        width: 479px;
+        max-width: 80%; }
+     #formScale {         
+         width: 479px;
+         max-width: 80%; }
 }
   
    
@@ -45,8 +54,14 @@
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width:480px) {
     section { padding: 25px 0; }
-    .contact-form { width: 100%; }
-    
-   
+    .formContainer {         
+        width: 479px;
+        max-width: 100%; }
+    .centerImg { 
+        width: 479px;
+        max-width: 100%; }
+    #formScale {         
+        width: 479px;
+        max-width: 100%; }
   
 }

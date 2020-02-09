@@ -23,7 +23,8 @@ class Form extends React.Component {
     const data = {
       name: this.state.name,
       email: this.state.email,
-      message: this.state.message
+      message: this.state.message,
+      newsletter: this.state.newsletter
     };
 
    }
@@ -31,7 +32,7 @@ class Form extends React.Component {
         return (
             <React.Fragment>
 <p className="formTitle">ASK ME ABOUT COMMISSION WORK! </p>
- <div className="formContainer">
+ <div className="formContainer" id="formScale">
         <form onSubmit={this.handleSubmit} >
      <div className='contact'>
         <fieldset>
@@ -60,6 +61,14 @@ class Form extends React.Component {
               onChange={this.handleChange}
             required></textarea>     
          </fieldset>
+         <h2>Sign up to our newsletter?</h2>
+         <input
+              name='Yes'
+              type='number'
+              checked={this.state.newsletter}
+              onChange={this.handleInputChange}
+            />
+
          </div> 
           <input type='submit' value='submit' className='submit-btn' />
           </div>
