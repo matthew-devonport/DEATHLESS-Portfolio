@@ -7,7 +7,12 @@
     .main-nav { width: 80%; }
     
     .app-screen { width: 50% }
-
+    .formContainer {         
+        width: 767px;
+        max-width: 80%; }
+     #formScale {         
+         width: 767px;
+         max-width: 80%; }
 
 }
 

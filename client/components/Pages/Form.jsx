@@ -31,7 +31,7 @@ class Form extends React.Component {
     render() {
         return (
             <React.Fragment>
-<p className="formTitle">ASK ME ABOUT COMMISSION WORK! </p>
+<p className="formTitle">ASK ME ABOUT COMMISSION WORK!<br/> <strong>&darr;</strong></p>
  <div className="formContainer" id="formScale">
         <form onSubmit={this.handleSubmit} >
      <div className='contact'>
@@ -61,16 +61,18 @@ class Form extends React.Component {
               onChange={this.handleChange}
             required></textarea>     
          </fieldset>
-         <h2>Sign up to our newsletter?</h2>
+
          <input
               name='Yes'
-              type='number'
+              type='checkbox'
               checked={this.state.newsletter}
               onChange={this.handleInputChange}
             />
-
-         </div> 
-          <input type='submit' value='submit' className='submit-btn' />
+         <h2>&nbsp;&uarr; Sign up to our newsletter?</h2>
+         </div>
+         <div className='submit-btn' > 
+          <input type='submit' value='submit' />
+          </div>
           </div>
         </form>
  </div>
