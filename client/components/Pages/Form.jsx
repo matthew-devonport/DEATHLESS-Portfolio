@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 class Form extends React.Component {
    constructor(props) {
        super(props);
@@ -13,31 +14,65 @@ class Form extends React.Component {
    
    }
 
+     handleChange(event) {
+    this.setState({ [event.target.name]: event.target.value });
+  }
 
+   handleSubmit(event) {
+    event.preventDefault();
+    const data = {
+      name: this.state.name,
+      email: this.state.email,
+      message: this.state.message
+    };
+
+   }
     render() {
         return (
             <React.Fragment>
-          <div>
-           <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
-    <div className="form-group">
-        <label htmlFor="name">Name</label>
-        <input type="text" className="form-control" />
-    </div>
-    <div className="form-group">
-        <label htmlFor="deathless@email.com">Email address</label>
-        <input type="email" className="form-control" aria-describedby="emailHelp" />
-    </div>
-    <div className="form-group">
-        <label htmlFor="message">Message</label>
-        <textarea className="form-control" rows="5"></textarea>
-    </div>
-    <button type="submit" className="btn btn-primary">Submit</button>
-</form>         
+<p className="formTitle">ASK ME ABOUT COMMISSION WORK! </p>
+ <div className="formContainer">
+        <form onSubmit={this.handleSubmit} >
+     <div className='contact'>
+        <fieldset>
+            <h2>Your full name:</h2>
+            <textarea
+              name='name'
+              value={this.state.name}
+              onChange={this.handleChange}
+            required></textarea>
+            </fieldset>
+          <fieldset>
+            <h2>Email Address:</h2>
+            <textarea
+              name='email'
+              value={this.state.email}
+              onChange={this.handleChange}
+            required></textarea>
+        </fieldset>
+        <div id='messageForm'>           
+          <fieldset>
+            <h2>Message:</h2>
+
+            <textarea tabIndex="5"
+              name='message'
+              value={this.state.message}
+              onChange={this.handleChange}
+            required></textarea>     
+         </fieldset>
+         </div> 
+          <input type='submit' value='submit' className='submit-btn' />
           </div>
+        </form>
+ </div>
             </React.Fragment>
         )
     }
 }
+
+
+    
+
 
 
 export default Form

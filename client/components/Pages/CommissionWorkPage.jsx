@@ -2,6 +2,7 @@ import React from "react"
 import PagesHeader from "./PagesHeader"
 import Footer from "../Footer"
 import PopUpBox from "./PopUpBox"
+import Form from "./Form"
 
 const images = [
   { id: 1, thumbnail: "/IMAGES/Commission-Work-Pics/1-1.jpg", fullSize: "/IMAGES/Commission-Work-Pics/1-2.jpg" },
@@ -62,8 +63,9 @@ class CommissionWorkPage extends React.Component {
               )
             })}
           </div>
-        </div>
+                 <Form />
         <Footer />
+        </div>
         {this.state.popupImageId !== null && (
           <PopUpBox
             togglePopup={() => this.togglePopup(null)} 
@@ -78,6 +80,7 @@ class CommissionWorkPage extends React.Component {
             </div>
           </PopUpBox>
         )}
+ 
       </React.Fragment>
     )
   }
