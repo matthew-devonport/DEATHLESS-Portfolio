@@ -48,6 +48,8 @@
     .formContainer {         
         width: 479px;
         max-width: 80%; }
+        .formContainer h2 {         
+            font-size: 40px; }
      #formScale {         
          width: 479px;
          max-width: 80%; }

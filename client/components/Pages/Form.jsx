@@ -35,20 +35,20 @@ class Form extends React.Component {
  <div className="formContainer" id="formScale">
         <form onSubmit={this.handleSubmit} >
      <div className='contact'>
-            <h2>Your full name:</h2>
+            <h2 className="formTitles">Your full name</h2>
             <input
               name='name'
               value={this.state.name}
               onChange={this.handleChange}
             required/> 
-            <h2>Email Address:</h2>
+            <h2 className="formTitles">Email Address</h2>
             <input
               name='email'
               value={this.state.email}
               onChange={this.handleChange}
             required/> 
         <div id='messageForm'>           
-            <h2>Message:</h2>
+            <h2 className="formTitles">Message</h2>
             <textarea 
               name='message'
               value={this.state.message}
@@ -60,8 +60,8 @@ class Form extends React.Component {
               type='checkbox'
               checked={this.state.newsletter}
               onChange={this.handleInputChange}/>
-         <h2>&nbsp;&uarr; Sign up to our newsletter?</h2>
-         <div className='submit-btn' > 
+         <h2 id="newsletter">&nbsp;&uarr; Sign up to our newsletter?</h2>
+         <div id='submit-btn' > 
           <input type='submit' value='submit' />
           </div>
           </div>
