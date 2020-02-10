@@ -1,4 +1,5 @@
 import React from 'react'
+import axios from "axios"
 
 
 class Form extends React.Component {
@@ -26,6 +27,10 @@ class Form extends React.Component {
       message: this.state.message,
       newsletter: this.state.newsletter
     };
+
+axios.post("api/sendMail", this.handleSubmit)
+
+
 
    }
     render() {
