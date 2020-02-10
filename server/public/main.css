@@ -364,13 +364,15 @@ h1 {
     resize: none;
   }
   
+  .contact input, 
   .contact textarea {
+    font-family: Arial, Helvetica, sans-serif;
     height: 40px;
     width: 500px;
     max-width: 100%;
     resize: none;
     background-color: black;
-    color: whitesmoke;
+    color: white;
   }
   
   .contact input[type="checkbox"] {
@@ -382,6 +384,7 @@ h1 {
   .submit-btn input[type="submit"] {
     cursor: pointer;
     width: 100%;
+    height:auto;
     border: none;
     background: yellow;
     color: black;

@@ -14,7 +14,7 @@ class Form extends React.Component {
    
    }
 
-     handleChange(event) {
+   handleChange(event) {
     this.setState({ [event.target.name]: event.target.value });
   }
 
@@ -35,41 +35,32 @@ class Form extends React.Component {
  <div className="formContainer" id="formScale">
         <form onSubmit={this.handleSubmit} >
      <div className='contact'>
-        <fieldset>
             <h2>Your full name:</h2>
-            <textarea
+            <input
               name='name'
               value={this.state.name}
               onChange={this.handleChange}
-            required></textarea>
-            </fieldset>
-          <fieldset>
+            required/> 
             <h2>Email Address:</h2>
-            <textarea
+            <input
               name='email'
               value={this.state.email}
               onChange={this.handleChange}
-            required></textarea>
-        </fieldset>
+            required/> 
         <div id='messageForm'>           
-          <fieldset>
             <h2>Message:</h2>
-
-            <textarea tabIndex="5"
+            <textarea 
               name='message'
               value={this.state.message}
               onChange={this.handleChange}
-            required></textarea>     
-         </fieldset>
-
-         <input
+            required/>
+            </div>     
+            <input
               name='Yes'
               type='checkbox'
               checked={this.state.newsletter}
-              onChange={this.handleInputChange}
-            />
+              onChange={this.handleInputChange}/>
          <h2>&nbsp;&uarr; Sign up to our newsletter?</h2>
-         </div>
          <div className='submit-btn' > 
           <input type='submit' value='submit' />
           </div>
