@@ -2,14 +2,14 @@ const mailer = require("nodemailer");
 const { Email } = require("./email_template");
 
 
-const getEmailData = (to, template) => {
+const getEmailData = (template) => {
     let data = null;
 
     switch (template) {
         case "hello":
             data = {
                 from: "Contact Form",
-                to,
+                to: "matthew.devonport.test@gmail.com",
                 subject: `Message from the contact form!`,
                 html: Email()
             }
