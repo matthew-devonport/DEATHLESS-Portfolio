@@ -9,7 +9,7 @@ class Form extends React.Component {
        this.state = {
          name: '',
          email: '',
-         message: '' };
+         message: ''};
        this.handleChange = this.handleChange.bind(this);
        this.handleSubmit = this.handleSubmit.bind(this);
    
@@ -19,7 +19,9 @@ class Form extends React.Component {
     this.setState(
       {[event.target.name]: event.target.value, 
        [event.target.email]: event.target.value,
-       [event.target.message]: event.target.value }
+       [event.target.message]: event.target.value,
+       [event.target.newsletter]: event.target.value
+       }
       );
   }
 
