@@ -1,45 +1,45 @@
 import React from 'react'
+import { HashRouter as Router, Route,} from 'react-router-dom';
+
 
 import Header from './Header'
-import Portfolio from './Portfolio'
 import CommissionWork from './CommissionWork'
 import Footer from './Footer'
 import Shop from './Shop'
+import PortfolioWorkPage from './Pages/PortfolioWorkPage';
 
 
 class Home extends React.Component {
  
-  handleClick = pageNum => {
-    const { dispatch } = this.props
-    dispatch(changePage(pageNum))
-  }
+  
 
 
   render () {
     return (
-      <div>
+      <Router>
       <Header />
       <h1>PORTFOLIO</h1>
-      <div onClick={() => this.handleClick(1)}>
-      <Portfolio />
+      <div className="portfolioPic">
+            <img src='IMAGES/Portfolio-Pics-Logo.jpg' className='portfolioPic'></img>
+      <Route path='Portfolio' component={PortfolioWorkPage} />
       </div>
       <div className='background' id='backgroundMidPic'>
       </div>
       <h1>COMMISSION WORK</h1>
-      <div onClick={() => this.handleClick(2)}>
+     
       <CommissionWork />
-      </div>
+    
       <div className='background' id='backgroundMidPic'>
       </div>
       <h1>DEATHLESS STORE</h1>
-      <div onClick={() => this.handleClick(3)}>
+     
       <Shop />
-      </div>
+    
       <div className='background' id='backgroundBottomPic'> 
       </div>
       <Footer />
       
-      </div>
+      </Router>
       
     )
   }

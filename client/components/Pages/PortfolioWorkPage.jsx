@@ -1,4 +1,6 @@
 import React from "react"
+
+
 import PagesHeader from "./PagesHeader"
 import Footer from "../Footer"
 import PopUpBox from "./PopUpBox"
