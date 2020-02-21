@@ -2,7 +2,13 @@ const mailer = require("nodemailer");
 
 const getEmailData = (name, email, message, newsletter) => {
     let data = null;
-    console.log(name)  
+
+    if (newsletter === true) {
+       newsletterChecked = "Yes"
+    } else { 
+        newsletterChecked = "No"
+    }
+
             data = {
                 from: "Contact Form",
                 to: "matthew.devonport.test@gmail.com",
@@ -10,7 +16,7 @@ const getEmailData = (name, email, message, newsletter) => {
                 html: `From:&nbsp;${name}
                       <br>Email:&nbsp;${email}
                       <br>Message:&nbsp;${message}
-                      <br>Newsletter?:&nbsp;${newsletter}`
+                      <br>Newsletter:&nbsp;${newsletterChecked}`
             }
     return data;
 }

@@ -12,6 +12,7 @@ class Form extends React.Component {
          message: ''};
        this.handleChange = this.handleChange.bind(this);
        this.handleSubmit = this.handleSubmit.bind(this);
+       this.handleInputChange = this.handleInputChange.bind(this);
    
    }
 
@@ -25,6 +26,17 @@ class Form extends React.Component {
       );
   }
 
+  handleInputChange(event) {
+    const target = event.target;
+    const value = target.type === 'checkbox' ? target.checked : target.value;
+    const name = target.name;
+
+    this.setState({
+      [name]: value
+    })
+
+  }
+
    handleSubmit(event) {
     event.preventDefault();
     const data = {
@@ -35,6 +47,8 @@ class Form extends React.Component {
     };
 
     Axios.post("api/v1/sendMail", data)
+
+    alert( "Thank you! We will be in touch shortly!")
 
    }
 
@@ -68,7 +82,7 @@ class Form extends React.Component {
             required/>
             </div>     
             <input
-              name='Yes'
+              name='newsletter'
               type='checkbox'
               checked={this.state.newsletter}
               onChange={this.handleInputChange}/>
