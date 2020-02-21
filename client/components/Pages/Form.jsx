@@ -1,4 +1,5 @@
 import React from 'react'
+import Axios from 'axios';
 
 
 class Form extends React.Component {
@@ -31,7 +32,12 @@ class Form extends React.Component {
       newsletter: this.state.newsletter
     };
 
+    Axios.post("api/sendMail", data)
+
    }
+
+
+
     render() {
         return (
             <React.Fragment>
