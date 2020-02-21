@@ -15,7 +15,11 @@ class Form extends React.Component {
    }
 
    handleChange(event) {
-    this.setState({ [event.target.name]: event.target.value });
+    this.setState(
+      {[event.target.name]: event.target.value, 
+       [event.target.email]: event.target.value,
+       [event.target.message]: event.target.value }
+      );
   }
 
    handleSubmit(event) {
@@ -70,11 +74,6 @@ class Form extends React.Component {
             </React.Fragment>
         )
     }
-}
-
-
-    
-
-
+}   
 
 export default Form
