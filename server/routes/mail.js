@@ -13,10 +13,10 @@ const getEmailData = (name, email, message, newsletter) => {
                 from: "Contact Form",
                 to: "matthew.devonport.test@gmail.com",
                 subject: `Message from the contact form!`,
-                html: `From:&nbsp;${name}
-                      <br>Email:&nbsp;${email}
-                      <br>Message:&nbsp;${message}
-                      <br>Newsletter:&nbsp;${newsletterChecked}`
+                html: `<b>From:</b>&nbsp;${name}
+                      <br><br><b>Email:</b>&nbsp;${email}
+                      <br><br><b>Message:</b>&nbsp;${message}
+                      <br><br><b>Newsletter:</b>&nbsp;${newsletterChecked}`
             }
     return data;
 }

@@ -50,6 +50,8 @@ class Form extends React.Component {
 
     alert( "Thank you! We will be in touch shortly!")
 
+    
+
    }
 
 
