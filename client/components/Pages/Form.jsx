@@ -32,7 +32,7 @@ class Form extends React.Component {
       newsletter: this.state.newsletter
     };
 
-    Axios.post("api/sendMail", data)
+    Axios.post("api/v1/sendMail", data)
 
    }
 
