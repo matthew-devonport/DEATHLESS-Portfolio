@@ -1,28 +1,21 @@
 const mailer = require("nodemailer");
-const { Email } = require("./email_template");
 
-
-const getEmailData = (template) => {
+const getEmailData = (name, email, message, type) => {
     let data = null;
-
-    switch (template) {
-        case "hello":
+    console.log(message)  
             data = {
                 from: "Contact Form",
                 to: "matthew.devonport.test@gmail.com",
                 subject: `Message from the contact form!`,
-                html: Email()
+                html: `${name}, ${email}, ${message}`
+              
             }
-            break;
-
-        default:
-            data;
-    }
     return data;
 }
 
 
-const sendEmail = (to, name, type) => {
+ 
+const sendEmail = (name, email, message, type) => {
 
     const smtpTransport = mailer.createTransport({
         service: "Gmail",
@@ -32,7 +25,7 @@ const sendEmail = (to, name, type) => {
         }
     })
 
-    const mail = getEmailData(to, name, type)
+    const mail = getEmailData(name, email, message, type)
 
     smtpTransport.sendMail(mail, function(error, response) {
         if(error) {
