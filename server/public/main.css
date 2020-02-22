@@ -449,10 +449,21 @@ h1 {
   /* ---- Navs ----- */
 
 #comNav {
-
+  color: yellow;
   position: fixed;
-  font-size: 3rem;
+  font-size: 5rem;
   float: left;
+  margin-left: 40px;
+}
+
+#comNavLinks a{
+  color: whitesmoke;
+}
+
+#comNavLinks {
+  font-size: 5rem;
+  color: whitesmoke;
+  padding-top: 150px;
 }
 
 
@@ -474,9 +485,8 @@ h1 {
   
   
   #navPopup-close {
-    position: absolute;
-    top: 8px;
-    right: 160px;
+    position: fixed;
+    margin-left: 40px;
     transition: all 200ms;
     font-size: 5vw;
     font-weight: bold;

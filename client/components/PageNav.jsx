@@ -38,7 +38,7 @@ setPopup = (content) => {
 }
 
 comNav = (
-      <div id="comNav">
+      <div id="comNavLinks">
       <ul>
           <li><Link to='/'>Home</Link></li>
           <li><Link to='/Portfolio'>Portfolio</Link></li>
