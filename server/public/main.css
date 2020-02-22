@@ -448,13 +448,11 @@ h1 {
 
   /* ---- Navs ----- */
 
-.comNav {
+#comNav {
 
-  position: absolute;
+  position: fixed;
   font-size: 3rem;
   float: left;
-  margin-left: -20px;
-
 }
 
 

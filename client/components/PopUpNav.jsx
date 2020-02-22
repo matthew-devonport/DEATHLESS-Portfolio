@@ -2,12 +2,12 @@ import React from "react"
 
 class PopUpNav extends React.Component {
   render() {
-    let { togglePopup, children } = this.props
+    let { togglePopup, content } = this.props
     return (
       <React.Fragment>
         <div id="navPopup-overlay">
           <div id="navPopup-content">
-            {children}
+            {content}
           </div>
           <a id="navPopup-close" onClick={togglePopup}>
             &times;

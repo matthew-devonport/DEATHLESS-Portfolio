@@ -52,8 +52,8 @@ class CommissionWorkPage extends React.Component {
     return (
       <React.Fragment>
         <div className="pageBackPic">
+        <PageNav />
           <PagesHeader />
-          <PageNav />
           <div className="pics">
             {images.map((image, index) => {
               return (
