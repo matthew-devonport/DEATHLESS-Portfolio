@@ -5,7 +5,7 @@ import Header from './Header'
 import CommissionWork from './CommissionWork'
 import Footer from './Footer'
 import Shop from './Shop'
-import PortfolioWorkPage from './Pages/PortfolioWorkPage';
+
 
 
 class Home extends React.Component {
@@ -21,9 +21,6 @@ class Home extends React.Component {
             <img src='IMAGES/Portfolio-Pics-Logo.jpg' className='portfolioPic'/>
           </Link>
         </div>
-        <Route exact path="/portfolio">
-          <PortfolioWorkPage />
-        </Route>
       <div className='background' id='backgroundMidPic'>
       </div>
       <h1>COMMISSION WORK</h1>
