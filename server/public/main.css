@@ -33,6 +33,7 @@ h1 {
 
 }
 
+
 .linkLogos {
     padding-top: 10vh;
 }
@@ -371,11 +372,11 @@ h1 {
   }
 
   .formContainer {
-    background-image: url(/Images/Commission-Work-Pics/Contact-Form-Pic.jpg);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ), url(/Images/Commission-Work-Pics/Contact-Form-Pic.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: initial;
-    color: rgb(195, 57, 245);
+    color: rgb(245, 57, 88);
     padding: 25px;
     margin: 150px 0;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
@@ -384,18 +385,22 @@ h1 {
     position: relative;
     padding-top: 30px;
     margin-bottom: 60px;
+    opacity: 0.9;
   }
 
   .formTitles {
-    font-size: 2rem;
+    font-size: 2.5rem;
+    font-weight: 200;
     margin-bottom: 10px;
     margin-top: 10px;
+    opacity: 1;
   }
   
   #messageForm textarea{
     height: 400px;
     width: 100%;
     resize: none;
+    font-size: 1rem;
   }
   
   .contact input, 
@@ -418,7 +423,8 @@ h1 {
 
   #newsletter {
     margin-bottom: 20px;
-    font-size: 2rem;
+    font-size: 2.7rem;
+    font-weight: 200;
   }
 
   #submit-btn input[type="submit"] {
