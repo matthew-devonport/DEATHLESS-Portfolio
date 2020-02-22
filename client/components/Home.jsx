@@ -15,28 +15,25 @@ class Home extends React.Component {
   render () {
     return (
       <Router>
-          <div className='background headerPic'>
+          <div className='headerPic pagesHeader'>
           <HomeNav />
           <img src="IMAGES/Deathless-Studio-Logo.png" className="centerImg"></img>   
-              </div>   
+                
       <h1>PORTFOLIO</h1>
           <Link to='/portfolio'>
             <Portfolio />
           </Link>   
-      <div className='background' id='backgroundMidPic'>
-      </div>
+      <div className='bannerSpace'></div>
       <h1>COMMISSION WORK</h1>
       <Link to='/commission'>
             <CommissionWork />
           </Link>
-      <div className='background' id='backgroundMidPic'>
-      </div>
+          <div className='bannerSpace'></div>
       <h1>DEATHLESS STORE</h1>
       <Shop />
-      <div className='background' id='backgroundBottomPic'> 
-      </div>
+      <div className='bannerSpace'></div>
       <Footer />
-     
+      </div> 
       </Router>
       
     )
