@@ -7,24 +7,32 @@
 html,
 body {
     color: #c79d33;
-    font-family: 'Permanent Marker', 'cursive', 'Arial', 'sans-serif';
-    font-weight: 400;
+    font-family: 'Impact', 'cursive', 'Arial', 'sans-serif';
+    font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
     /* overflow-x: hidden; */
 }
 
+ul {
+  list-style-type: none;
+ }
+
+
+ 
 h1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(./Images/Banner-Logo.jpg);
     background-size: cover;
     background-position: center;
     color: rgb(221, 211, 62);
-    font-size: 300%;
+    font-size: 3.5rem;
+    font-weight: 100;
     word-spacing: 4px;
     letter-spacing: 1px;
     text-align: center;
 
 }
+
 
 .linkLogos {
     padding-top: 10vh;
@@ -89,6 +97,25 @@ h1 {
     width: 50%;
   }
 
+
+
+
+
+
+
+/* ------- HOME ------ */
+
+.bannerSpace {
+  display: block;
+  margin-bottom: 200px;
+}
+
+
+
+
+
+
+
 /* ------ Portfolio Logo ------ */
 
 .portfolioPic {
@@ -97,13 +124,14 @@ h1 {
     width: 100%;
     display: block;
     position: relative;
+    z-index: 1;
 }
 
 .portfolioPic::before {
     content: "Click to see more Portfolio Work!";
     background-color: black;
     color: white;
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 900;
     width: 100%;
     height: 100%;
@@ -120,7 +148,7 @@ h1 {
 }
 
 .portfolioPic:hover::before {
-    opacity: 0.9;
+    opacity: 0.95;
 }
 
 
@@ -139,7 +167,7 @@ h1 {
     content: "Click to see more Commission Work!";
     background-color: black;
     color: white;
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 900;
     width: 100%;
     height: 100%;
@@ -156,7 +184,7 @@ h1 {
 }
 
 .commissionPic:hover::before {
-    opacity: 0.9;
+    opacity: 0.95;
 }
 
 
@@ -175,7 +203,7 @@ h1 {
     content: "Click to vist the store!";
     background-color: black;
     color: white;
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 900;
     width: 100%;
     height: 100%;
@@ -192,7 +220,7 @@ h1 {
 }
 
 .shopPic:hover::before {
-    opacity: 0.9;
+    opacity: 0.95;
 }
 
 /* ------ Footer ------ */
@@ -333,6 +361,8 @@ h1 {
     padding: 60px 0 0;
   }
 
+  /* ------ Form ------- */
+
   .formTitle {
     font-size: 450%;
     word-spacing: 4px;
@@ -342,11 +372,11 @@ h1 {
   }
 
   .formContainer {
-    background-image: url(/Images/Commission-Work-Pics/Contact-Form-Pic.jpg);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ), url(/Images/Commission-Work-Pics/Contact-Form-Pic.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: initial;
-    color: rgb(195, 57, 245);
+    color: rgb(245, 57, 88);
     padding: 25px;
     margin: 150px 0;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
@@ -355,18 +385,22 @@ h1 {
     position: relative;
     padding-top: 30px;
     margin-bottom: 60px;
+    opacity: 0.9;
   }
 
   .formTitles {
-    font-size: 2rem;
+    font-size: 2.5rem;
+    font-weight: 200;
     margin-bottom: 10px;
     margin-top: 10px;
+    opacity: 1;
   }
   
   #messageForm textarea{
     height: 400px;
     width: 100%;
     resize: none;
+    font-size: 1rem;
   }
   
   .contact input, 
@@ -389,7 +423,8 @@ h1 {
 
   #newsletter {
     margin-bottom: 20px;
-    font-size: 2rem;
+    font-size: 2.7rem;
+    font-weight: 200;
   }
 
   #submit-btn input[type="submit"] {
@@ -438,4 +473,90 @@ h1 {
   
   :-ms-input-placeholder {
     color: #888;
+  }
+
+  /* ---- Navs ----- */
+
+#comNav {
+  color: yellow;
+  position: fixed;
+  font-size: 5rem;
+  float: left;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+#homeNav {
+  color: yellow;
+  position: fixed;
+  font-size: 5rem;
+  float: left;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+a:link,
+a:visited {
+    color: whitesmoke;
+    text-decoration: none;
+    transition: color 0.3s;
+    transition: color 0.3s;
+}
+
+#comNavLinks {
+  font-size: 5rem;
+  padding-top: 150px;
+}
+
+.gradient:hover,
+.gradient:active {
+  color: whitesmoke;
+	background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: hue 10s infinite linear;
+}
+
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+
+
+
+  /* ------ Pop Up Box ------ */
+
+  #navPopup-overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.9);
+    transition: opacity 500ms;
+    z-index: 100;
+  }
+  
+
+  
+  
+  #navPopup-close {
+    position: fixed;
+    display: block;
+    margin-left: 40px;
+    transition: all 200ms;
+    font-size: 5rem;
+    font-weight: bold;
+    text-decoration: none;
+      color: yellow;
+      cursor: pointer;
+      z-index: 101;
+  }
+  
+  #navPopup-close:hover {
+    color: red;
   }

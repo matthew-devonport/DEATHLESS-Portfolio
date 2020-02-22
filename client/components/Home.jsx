@@ -6,7 +6,7 @@ import CommissionWork from './CommissionWork'
 import Footer from './Footer'
 import Shop from './Shop'
 import Portfolio from './Portfolio';
-
+import HomeNav from './HomeNav'
 
 
 class Home extends React.Component {
@@ -15,27 +15,25 @@ class Home extends React.Component {
   render () {
     return (
       <Router>
-      <Header />
+          <div className='headerPic pagesHeader'>
+          <HomeNav />
+          <img src="IMAGES/Deathless-Studio-Logo.png" className="centerImg"></img>   
+                
       <h1>PORTFOLIO</h1>
-        <div className="portfolioPic">
           <Link to='/portfolio'>
             <Portfolio />
-          </Link>
-        </div>
-      <div className='background' id='backgroundMidPic'>
-      </div>
+          </Link>   
+      <div className='bannerSpace'></div>
       <h1>COMMISSION WORK</h1>
       <Link to='/commission'>
             <CommissionWork />
           </Link>
-      <div className='background' id='backgroundMidPic'>
-      </div>
+          <div className='bannerSpace'></div>
       <h1>DEATHLESS STORE</h1>
       <Shop />
-      <div className='background' id='backgroundBottomPic'> 
-      </div>
+      <div className='bannerSpace'></div>
       <Footer />
-      
+      </div> 
       </Router>
       
     )
