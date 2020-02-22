@@ -454,6 +454,7 @@ h1 {
   font-size: 5rem;
   float: left;
   margin-left: 40px;
+  cursor: pointer;
 }
 
 a:link,
@@ -497,20 +498,18 @@ a:visited {
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(0, 0, 0, 0.85);
+    background: rgba(0, 0, 0, 0.9);
     transition: opacity 500ms;
   }
   
-  #navPopup-link-box {
-      cursor: pointer;
-  }
+
   
   
   #navPopup-close {
     position: fixed;
     margin-left: 40px;
     transition: all 200ms;
-    font-size: 5vw;
+    font-size: 5rem;
     font-weight: bold;
     text-decoration: none;
       color: yellow;
