@@ -6,9 +6,7 @@ class PopUpNav extends React.Component {
     return (
       <React.Fragment>
         <div id="navPopup-overlay">
-        <a id="navPopup-close" onClick={togglePopup}>
-            &times;
-          </a>
+        <a id="navPopup-close" onClick={togglePopup}>≡­­­</a>
           <div id="navPopup-content">
             {content}
           </div>

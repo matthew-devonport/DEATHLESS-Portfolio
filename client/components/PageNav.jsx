@@ -23,7 +23,7 @@ class PageNav extends React.Component {
         return (
             <div>
 <div id="comNav">
-<a onClick={() => this.setPopup(this.comNav)}>=</a>
+<a onClick={() => this.setPopup(this.comNav)}>≡­­­</a>
 </div>
 {this.state.popupIsShowing && <PopUpNav content={this.popupContent} togglePopup={this.togglePopup}/>}
 </div>
@@ -40,9 +40,9 @@ setPopup = (content) => {
 comNav = (
       <div id="comNavLinks">
       <ul>
-          <li><Link to='/'>Home</Link></li>
-          <li><Link to='/Portfolio'>Portfolio</Link></li>
-          <li><Link to='/Shop'>Shop</Link></li>
+         <div className="gradient"><li><Link to='/'>Home</Link></li></div>
+         <div className="gradient"><li><Link to='/Portfolio'>Portfolio</Link></li></div>
+         <div className="gradient"><li><Link to='/Shop'>Shop</Link></li></div>
           </ul>
           </div>
 )
