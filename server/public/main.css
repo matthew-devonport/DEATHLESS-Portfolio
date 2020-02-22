@@ -7,8 +7,8 @@
 html,
 body {
     color: #c79d33;
-    font-family: 'Permanent Marker', 'cursive', 'Arial', 'sans-serif';
-    font-weight: 400;
+    font-family: 'Impact', 'cursive', 'Arial', 'sans-serif';
+    font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
     /* overflow-x: hidden; */
@@ -18,12 +18,15 @@ ul {
   list-style-type: none;
  }
 
+
+ 
 h1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(./Images/Banner-Logo.jpg);
     background-size: cover;
     background-position: center;
     color: rgb(221, 211, 62);
-    font-size: 300%;
+    font-size: 3.5rem;
+    font-weight: 100;
     word-spacing: 4px;
     letter-spacing: 1px;
     text-align: center;
@@ -127,7 +130,7 @@ h1 {
     content: "Click to see more Portfolio Work!";
     background-color: black;
     color: white;
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 900;
     width: 100%;
     height: 100%;
@@ -144,7 +147,7 @@ h1 {
 }
 
 .portfolioPic:hover::before {
-    opacity: 0.9;
+    opacity: 0.95;
 }
 
 
@@ -163,7 +166,7 @@ h1 {
     content: "Click to see more Commission Work!";
     background-color: black;
     color: white;
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 900;
     width: 100%;
     height: 100%;
@@ -180,7 +183,7 @@ h1 {
 }
 
 .commissionPic:hover::before {
-    opacity: 0.9;
+    opacity: 0.95;
 }
 
 
@@ -199,7 +202,7 @@ h1 {
     content: "Click to vist the store!";
     background-color: black;
     color: white;
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 900;
     width: 100%;
     height: 100%;
@@ -216,7 +219,7 @@ h1 {
 }
 
 .shopPic:hover::before {
-    opacity: 0.9;
+    opacity: 0.95;
 }
 
 /* ------ Footer ------ */
