@@ -1,4 +1,5 @@
 import React from 'react'
+import { HashRouter as Router, Link } from 'react-router-dom';
 
 class PageNav extends React.Component {
 
@@ -6,11 +7,11 @@ class PageNav extends React.Component {
 
     render() {
         return (
-            <React.Fragment>
-          <Nav>
-        
-          </Nav>   
-            </React.Fragment>
+            <Router>
+  <nav>
+     <Link to='/'>Home</Link>
+  </nav>
+            </Router>
         )
     }
 }

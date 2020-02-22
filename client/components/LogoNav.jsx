@@ -8,7 +8,7 @@ class LogoNav extends React.Component {
         return (
             <React.Fragment>
           <Nav>
-        
+         
           </Nav>   
             </React.Fragment>
         )
