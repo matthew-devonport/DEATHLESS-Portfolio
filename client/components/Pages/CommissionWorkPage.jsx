@@ -1,8 +1,10 @@
 import React from "react"
+
 import PagesHeader from "./PagesHeader"
 import Footer from "../Footer"
 import PopUpBox from "./PopUpBox"
 import Form from "./Form"
+
 
 const images = [
   { id: 1, thumbnail: "/IMAGES/Commission-Work-Pics/1-1.jpg", fullSize: "/IMAGES/Commission-Work-Pics/1-2.jpg" },

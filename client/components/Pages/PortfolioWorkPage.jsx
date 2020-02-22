@@ -1,5 +1,7 @@
 import React from "react"
-import PagesHeader from "./PagesHeader"
+
+
+import PortfolioPagesHeader from "./PortfolioPagesHeader"
 import Footer from "../Footer"
 import PopUpBox from "./PopUpBox"
 
@@ -22,12 +24,7 @@ const images = [
   { id: 16, thumbnail: "/IMAGES/Portfolio-Work-Pics/16-1.jpg" ,fullSize: "/IMAGES/Portfolio-Work-Pics/16-2.jpg" },
   { id: 17, thumbnail: "/IMAGES/Portfolio-Work-Pics/17-1.jpg" ,fullSize: "/IMAGES/Portfolio-Work-Pics/17-2.jpg" },
   { id: 18, thumbnail: "/IMAGES/Portfolio-Work-Pics/18-1.jpg" ,fullSize: "/IMAGES/Portfolio-Work-Pics/18-2.jpg" },
-  { id: 19, thumbnail: "/IMAGES/Portfolio-Work-Pics/19-1.jpg" ,fullSize: "/IMAGES/Portfolio-Work-Pics/19-2.jpg" },
-  { id: 20, thumbnail: "/IMAGES/Portfolio-Work-Pics/20-1.jpg" ,fullSize: "/IMAGES/Portfolio-Work-Pics/20-2.jpg" },
-  { id: 21, thumbnail: "/IMAGES/Portfolio-Work-Pics/21-1.jpg" ,fullSize: "/IMAGES/Portfolio-Work-Pics/21-2.jpg" },
-  { id: 22, thumbnail: "/IMAGES/Portfolio-Work-Pics/22-1.jpg" ,fullSize: "/IMAGES/Portfolio-Work-Pics/22-2.jpg" },
-  { id: 23, thumbnail: "/IMAGES/Portfolio-Work-Pics/23-1.jpg" ,fullSize: "/IMAGES/Portfolio-Work-Pics/23-2.jpg" },
-  { id: 24, thumbnail: "/IMAGES/Portfolio-Work-Pics/24-1.jpg" ,fullSize: "/IMAGES/Portfolio-Work-Pics/24-2.jpg" },
+
 ]
 
 class PortfolioWorkPage extends React.Component {
@@ -48,8 +45,8 @@ class PortfolioWorkPage extends React.Component {
     return (
       <React.Fragment>
         <div className="pageBackPic">
-          <PagesHeader />
-          <div className="pics">
+          <PortfolioPagesHeader />
+          <div className="portfolioPics">
             {images.map((image, index) => {
               return (
                 <a
