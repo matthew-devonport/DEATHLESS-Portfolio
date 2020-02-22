@@ -1,21 +1,21 @@
 import React from 'react'
-import { HashRouter as Router, Route, Link} from 'react-router-dom';
+import { HashRouter as Router, Route } from 'react-router-dom';
 
-import Header from './Header'
-import CommissionWork from './CommissionWork'
-import Footer from './Footer'
-import Shop from './Shop'
-import PortfolioWorkPage from './Pages/PortfolioWorkPage';
+
 import Home from './Home'
-
+import PortfolioWorkPage from './Pages/PortfolioWorkPage';
+import CommissionWorkPage from './Pages/CommissionWorkPage';
 class App extends React.Component {
  
 
   render () {
     return (
       <Router>
+        <div>
         <Route exact path='/' component={Home} />
-        <Route exact path="/portfolio" Component={PortfolioWorkPage} />
+        <Route exact path='/portfolio' component={PortfolioWorkPage} />
+        <Route exact path ='/commission' component={CommissionWorkPage} />
+        </div>
       </Router>
       
     )
