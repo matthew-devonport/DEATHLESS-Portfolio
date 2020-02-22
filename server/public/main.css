@@ -14,6 +14,10 @@ body {
     /* overflow-x: hidden; */
 }
 
+ul {
+  list-style-type: none;
+ }
+
 h1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(./Images/Banner-Logo.jpg);
     background-size: cover;
@@ -333,6 +337,8 @@ h1 {
     padding: 60px 0 0;
   }
 
+  /* ------ Form ------- */
+
   .formTitle {
     font-size: 450%;
     word-spacing: 4px;
@@ -438,4 +444,49 @@ h1 {
   
   :-ms-input-placeholder {
     color: #888;
+  }
+
+  /* ---- Navs ----- */
+
+.comNav {
+
+  position: absolute;
+  font-size: 1rem;
+  float: left;
+  margin-left: -20px;
+
+}
+
+
+  /* ------ Pop Up Box ------ */
+
+  #navPopup-overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.8);
+    transition: opacity 500ms;
+  }
+  
+  #navPopup-link-box {
+      cursor: pointer;
+  }
+  
+  
+  #navPopup-close {
+    position: absolute;
+    top: 8px;
+    right: 160px;
+    transition: all 200ms;
+    font-size: 5vw;
+    font-weight: bold;
+    text-decoration: none;
+      color: yellow;
+      cursor: pointer;
+  }
+  
+  #navPopup-close:hover {
+    color: red;
   }
