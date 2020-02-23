@@ -30,8 +30,23 @@ h1 {
     word-spacing: 4px;
     letter-spacing: 1px;
     text-align: center;
-
 }
+
+  /* Responsive layout - makes nav icon smaller*/
+  /* @media screen and (max-width: 800px) {
+    .pageNav {
+      font-size: 3rem;
+      margin-left: 20px;
+      margin-top: 5px;
+    }
+  } */
+
+   /* Responsive layout - makes nav icon smaller*/
+  @media screen and (max-width: 600px) {
+    h1 {
+      font-size: 1.6rem;
+    }
+  }
 
 
 .linkLogos {
@@ -43,6 +58,32 @@ h1 {
 }
 
 /* ------ Header ------ */
+
+  /* Responsive layout - makes home logo fit better to scale */
+  @media screen and (max-width: 1400px) {
+    #homeLogo {
+      height: 1000px;
+      width: auto;
+    }
+  }
+
+
+  /* Responsive layout - makes home logo fit better to scale */
+  @media screen and (max-width: 800px) {
+    #homeLogo {
+      height: 700px;
+      width: auto;
+    }
+  }
+
+   /* Responsive layout - makes home logo fit better to scale */
+  @media screen and (max-width: 600px) {
+    #homeLogo {
+      height: 400px;
+      width: auto;
+    }
+  }
+
 
 
 .background {
@@ -543,6 +584,7 @@ h1 {
   cursor: pointer;
   z-index: 5;
 }
+
 
 /* ------ RESPONSIVE instaIcon ------ /*
 
