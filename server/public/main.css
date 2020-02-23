@@ -79,15 +79,18 @@ h1 {
     background-attachment: fixed;
 }
 
-/* .instaIcon {
-    padding-left: 3vh;
-    padding-top: 2vh;
-    width: 5%;
-    float: left;
-    cursor: pointer;
-    position: relative;
+#instaIcon {
+  height: 100px;
+  width: 100px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  margin-top: 20px;
+  margin-right: 20px;
+  z-index: 5;
+  
 
-} */
+}
 
 .centerImg {
     display: block;
@@ -594,7 +597,7 @@ a:visited {
   }
 
   #navPic {
-    height: 750px;
+    height: 850px;
     width: auto;
     position: absolute;
     top: 50px;
