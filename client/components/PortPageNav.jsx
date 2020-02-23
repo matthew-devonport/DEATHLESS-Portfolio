@@ -39,6 +39,8 @@ comNav = (
          <div className="gradient"><li><Link to='/'>Home</Link></li></div>
          <div className="gradient"><li><Link to='/Commission'>Commission</Link></li></div>
          <div className="gradient"><li><Link to='/Shop'>Shop</Link></li></div>
+         <div className="gradient"><li><Link to='/Contact'>Contact Me</Link></li></div>
+        <div className="gradient"><li><Link to='/About'>About Me</Link></li></div>
           </ul>
           </div>
 )  
