@@ -333,6 +333,7 @@ h1 {
     right: 0;
     background: rgba(0, 0, 0, 0.8);
     transition: opacity 500ms;
+    z-index: 6;
   }
   
   #popup-link-box {
@@ -511,6 +512,30 @@ h1 {
 
   /* ---- Navs ----- */
 
+  #formNav {
+    color: yellow;
+    position: fixed;
+    font-size: 5rem;
+    float: left;
+    margin-left: 40px;
+    cursor: pointer;
+    z-index: 5;
+  }
+
+
+
+
+#portNav {
+    color: yellow;
+    position: fixed;
+    font-size: 5rem;
+    float: left;
+    margin-left: 40px;
+    cursor: pointer;
+    z-index: 5;
+  }
+  
+
 #comNav {
   color: yellow;
   position: fixed;
@@ -518,6 +543,17 @@ h1 {
   float: left;
   margin-left: 40px;
   cursor: pointer;
+  z-index: 5;
+}
+
+#aboutNav {
+  color: yellow;
+  position: fixed;
+  font-size: 5rem;
+  float: left;
+  margin-left: 40px;
+  cursor: pointer;
+  z-index: 5;
 }
 
 #homeNav {
