@@ -67,6 +67,7 @@ class CommissionWorkPage extends React.Component {
               )
             })}
           </div>
+          <p className="formTitle">ASK ME ABOUT COMMISSION WORK!<br/> <strong>&darr;</strong></p>
                  <Form />
         <Footer />
         </div>

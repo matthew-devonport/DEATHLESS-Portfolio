@@ -59,7 +59,6 @@ class Form extends React.Component {
     render() {
         return (
             <React.Fragment>
-<p className="formTitle">ASK ME ABOUT COMMISSION WORK!<br/> <strong>&darr;</strong></p>
  <div className="formContainer" id="formScale">
         <form onSubmit={this.handleSubmit} >
      <div className='contact'>
