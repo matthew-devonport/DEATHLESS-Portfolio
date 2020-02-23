@@ -492,6 +492,20 @@ h1 {
 
   }
 
+
+/* ----- ABOUT ME ------ */
+
+#parryOne {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+
+
   /* ---- Navs ----- */
 
 #comNav {

@@ -1,5 +1,8 @@
 import React from 'react'
 
+import Footer from './Footer'
+import AboutMeNav from './AboutMeNav'
+
 class AboutMe extends React.Component {
 
 
@@ -8,7 +11,12 @@ class AboutMe extends React.Component {
         return (
             <React.Fragment>
           <div className='background headerPic'>
-          <img src="IMAGES/Deathless-Studio-Logo.png" className="centerImg"></img>   
+              <AboutMeNav />
+          <img src="IMAGES/Deathless-Studio-About-Logo.png" className="centerImg"></img>
+         <img src="IMAGES/Matt-Parry.jpg" id="parryOne"></img>
+         
+         
+          <Footer />   
               </div>   
             </React.Fragment>
         )
