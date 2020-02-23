@@ -128,7 +128,7 @@ h1 {
 }
 
 .portfolioPic::before {
-    content: "Click to see more Portfolio Work!";
+    content: "Click to see more Portfolio Work";
     background-color: black;
     color: white;
     font-size: 4rem;
@@ -164,7 +164,7 @@ h1 {
 }
 
 .commissionPic::before {
-    content: "Click to see more Commission Work!";
+    content: "Click to see more Commission Work";
     background-color: black;
     color: white;
     font-size: 4rem;
@@ -200,7 +200,7 @@ h1 {
 }
 
 .shopPic::before {
-    content: "Click to vist the store!";
+    content: "Click to vist the store";
     background-color: black;
     color: white;
     font-size: 4rem;
