@@ -14,7 +14,7 @@ class NavFormPage extends React.Component {
             <React.Fragment>
                <div className="pageBackPic">
                  <FormPageNav />  
-               <PagesHeader />
+                 <img src="IMAGES/Deathless-Studio-Form-Logo-PS-Template.png" className="centerImg"></img>
                <p className="formTitle">FILL OUT THE FORM BELOW!<br/> <strong>&darr;</strong></p>
                <Form /> 
              
