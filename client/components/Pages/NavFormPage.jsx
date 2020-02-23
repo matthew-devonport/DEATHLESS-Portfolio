@@ -15,7 +15,7 @@ class NavFormPage extends React.Component {
                <div className="pageBackPic">
                  <FormPageNav /> 
                  <SocialMediaNav /> 
-                 <img src="IMAGES/Deathless-Studio-Form-Logo.png" className="centerImg"></img>
+                 <img src="IMAGES/Deathless-Studio-Form-Logo.png" className="centerImg" id="formLogo"></img>
                <p className="formTitle">FILL OUT THE FORM BELOW!<br/> <strong>&darr;</strong></p>
                <Form />             
               <Footer />  

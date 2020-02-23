@@ -14,7 +14,7 @@ class AboutMe extends React.Component {
           <div className='background headerPic'>
               <AboutMeNav />
               <SocialMediaNav />
-          <img src="IMAGES/Deathless-Studio-About-Logo.png" className="centerImg"></img>
+          <img src="IMAGES/Deathless-Studio-About-Logo.png" className="centerImg" id="aboutLogo"></img>
          <img src="IMAGES/Matt-Parry.jpg" id="parryOne"></img>
          
          

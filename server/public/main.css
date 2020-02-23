@@ -247,7 +247,7 @@ h1 {
 
 /* ------ Commission Logo ------ */
 
-  /* Responsive layout - makes port logo fit better to scale */
+  /* Responsive layout - makes com logo fit better to scale */
   @media screen and (max-width: 1400px) {
     #comLogo {
       height: 800px;
@@ -256,7 +256,7 @@ h1 {
   }
 
 
-  /* Responsive layout - makes port logo fit better to scale */
+  /* Responsive layout - makes com logo fit better to scale */
   @media screen and (max-width: 800px) {
     #comLogo {
       height: 600px;
@@ -264,7 +264,7 @@ h1 {
     }
   }
 
-   /* Responsive layout - makes port logo fit better to scale */
+   /* Responsive layout - makes com logo fit better to scale */
   @media screen and (max-width: 600px) {
     #comLogo{
       height: 330px;
@@ -480,6 +480,31 @@ h1 {
 
   /* ------ Form ------- */
 
+    /* Responsive layout - makes form logo fit better to scale */
+    @media screen and (max-width: 1400px) {
+      #formLogo {
+        height: 800px;
+        width: auto;
+      }
+    }
+  
+  
+    /* Responsive layout - makes form logo fit better to scale */
+    @media screen and (max-width: 800px) {
+      #formLogo {
+        height: 600px;
+        width: auto;
+      }
+    }
+  
+     /* Responsive layout - makes form logo fit better to scale */
+    @media screen and (max-width: 600px) {
+      #formLogo{
+        height: 300px;
+        width: auto;
+      }
+    }
+
   .formTitle {
     font-size: 450%;
     word-spacing: 4px;
@@ -612,7 +637,34 @@ h1 {
 
 /* ----- ABOUT ME ------ */
 
+  /* Responsive layout - makes about logo fit better to scale */
+  @media screen and (max-width: 1400px) {
+    #aboutLogo {
+      height: 800px;
+      width: auto;
+    }
+  }
+
+
+  /* Responsive layout - makes about logo fit better to scale */
+  @media screen and (max-width: 800px) {
+    #aboutLogo {
+      height: 600px;
+      width: auto;
+    }
+  }
+
+   /* Responsive layout - makes about logo fit better to scale */
+  @media screen and (max-width: 600px) {
+    #aboutLogo{
+      height: 300px;
+      width: auto;
+    }
+  }
+
 #parryOne {
+  height: 30vh;
+  width: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
