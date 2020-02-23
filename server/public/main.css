@@ -89,8 +89,32 @@ h1 {
   margin-right: 20px;
   z-index: 5;
   
-
 }
+
+/* ------ RESPONSIVE instaIcon ------ /*
+
+
+  
+  /* Responsive layout - makes the insta icon smaller */
+  @media screen and (max-width: 800px) {
+    #instaIcon {
+      height: 50px;
+      width: 50px;
+      margin-right: 13px;
+      margin-top: 16px;
+    }
+  }
+
+  
+  /* Responsive layout - makes the insta icon smaller */
+  @media screen and (max-width: 600px) {
+    #instaIcon {
+      height: 30px;
+      width: 30px;
+      margin-right: 10px;
+      margin-top: 10px;
+    }
+  }
 
 .centerImg {
     display: block;
@@ -291,8 +315,6 @@ h1 {
     background-position: top;
     background-attachment: fixed;
     background-size: cover;
-    /* height: 100%;
-    width: 100%; */
 }
 
 
@@ -512,59 +534,37 @@ h1 {
 
   /* ---- Navs ----- */
 
-  #formNav {
-    color: yellow;
-    position: fixed;
-    font-size: 5rem;
-    float: left;
-    margin-left: 40px;
-    cursor: pointer;
-    z-index: 5;
-  }
+.pageNav {
+  color: yellow;
+  position: fixed;
+  font-size: 5rem;
+  float: left;
+  margin-left: 40px;
+  cursor: pointer;
+  z-index: 5;
+}
+
+/* ------ RESPONSIVE instaIcon ------ /*
 
 
-
-
-#portNav {
-    color: yellow;
-    position: fixed;
-    font-size: 5rem;
-    float: left;
-    margin-left: 40px;
-    cursor: pointer;
-    z-index: 5;
-  }
   
+  /* Responsive layout - makes nav icon smaller*/
+  @media screen and (max-width: 800px) {
+    .pageNav {
+      font-size: 3rem;
+      margin-left: 20px;
+      margin-top: 5px;
+    }
+  }
 
-#comNav {
-  color: yellow;
-  position: fixed;
-  font-size: 5rem;
-  float: left;
-  margin-left: 40px;
-  cursor: pointer;
-  z-index: 5;
-}
-
-#aboutNav {
-  color: yellow;
-  position: fixed;
-  font-size: 5rem;
-  float: left;
-  margin-left: 40px;
-  cursor: pointer;
-  z-index: 5;
-}
-
-#homeNav {
-  color: yellow;
-  position: fixed;
-  font-size: 5rem;
-  float: left;
-  margin-left: 40px;
-  cursor: pointer;
-  z-index: 5;
-}
+   /* Responsive layout - makes nav icon smaller*/
+  @media screen and (max-width: 600px) {
+    .pageNav {
+      font-size: 1.6rem;
+      margin-left: 10px;
+      margin-top: 5px;
+    }
+  }
 
 a:link,
 a:visited {
