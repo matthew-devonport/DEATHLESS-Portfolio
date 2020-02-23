@@ -5,6 +5,7 @@ import Footer from "../Footer"
 import PopUpBox from "./PopUpBox"
 import Form from "./Form"
 import ComPageNav from "../ComPageNav"
+import SocialMediaNav from '../SocialMediaNav'
 
 
 const images = [
@@ -53,6 +54,7 @@ class CommissionWorkPage extends React.Component {
       <React.Fragment>
         <div className="pageBackPic">
         <ComPageNav />
+        <SocialMediaNav />
           <PagesHeader />
           <div className="pics">
             {images.map((image, index) => {

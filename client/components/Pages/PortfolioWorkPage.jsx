@@ -5,6 +5,7 @@ import PortfolioPagesHeader from "./PortfolioPagesHeader"
 import Footer from "../Footer"
 import PopUpBox from "./PopUpBox"
 import PortPageNav from "../PortPageNav"
+import SocialMediaNav from '../SocialMediaNav'
 
 const images = [
   { id: 1, thumbnail: "/IMAGES/Portfolio-Work-Pics/1-1.jpg", fullSize: "/IMAGES/Portfolio-Work-Pics/1-2.jpg" },
@@ -47,6 +48,7 @@ class PortfolioWorkPage extends React.Component {
       <React.Fragment>
         <div className="pageBackPic">
         <PortPageNav />
+        <SocialMediaNav />
           <PortfolioPagesHeader />
           <div className="portfolioPics">
             {images.map((image, index) => {

@@ -1,9 +1,9 @@
 import React from 'react'
 
 import Form from './Form'
-import PagesHeader from './PagesHeader'
 import Footer from '../Footer'
 import FormPageNav from '../FormPageNav'
+import SocialMediaNav from '../SocialMediaNav'
 
 class NavFormPage extends React.Component {
 
@@ -13,7 +13,8 @@ class NavFormPage extends React.Component {
         return (
             <React.Fragment>
                <div className="pageBackPic">
-                 <FormPageNav />  
+                 <FormPageNav /> 
+                 <SocialMediaNav /> 
                  <img src="IMAGES/Deathless-Studio-Form-Logo.png" className="centerImg"></img>
                <p className="formTitle">FILL OUT THE FORM BELOW!<br/> <strong>&darr;</strong></p>
                <Form /> 
