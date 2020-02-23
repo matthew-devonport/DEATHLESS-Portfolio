@@ -82,13 +82,15 @@ class Form extends React.Component {
               value={this.state.message}
               onChange={this.handleChange}
             required/>
-            </div>     
-            <input
+            </div>
+            <div id="newsletterLayout"> 
+            <input id="checkbox"
               name='newsletter'
               type='checkbox'
               checked={this.state.newsletter}
               onChange={this.handleInputChange}/>
-         <h2 id="newsletter">&nbsp;&nbsp;&uarr;&nbsp;  SIGN UP TO OUR NEWSLETTER?</h2>
+         <h2 id="newsletter">SIGN UP FOR OUR NEWSLETTER!</h2>
+         </div>
          <div id='submit-btn' > 
           <input type='submit' value='submit' />
           </div>
