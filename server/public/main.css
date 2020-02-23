@@ -502,6 +502,7 @@ h1 {
   float: left;
   margin-left: 40px;
   cursor: pointer;
+  z-index: 5;
 }
 
 a:link,
@@ -568,4 +569,12 @@ a:visited {
   
   #navPopup-close:hover {
     color: red;
+  }
+
+  #navPic {
+    height: 750px;
+    width: auto;
+    position: absolute;
+    top: 50px;
+    right: 330px;
   }
