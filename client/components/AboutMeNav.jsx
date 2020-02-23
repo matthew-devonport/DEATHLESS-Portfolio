@@ -3,7 +3,7 @@ import { HashRouter as NavLink, Link } from 'react-router-dom';
 import PopUpNav from './PopUpNav'
 
 
-class HomeNav extends React.Component {
+class AboutMeNav extends React.Component {
     state = {
         popupIsShowing: false,
       }
@@ -19,7 +19,7 @@ class HomeNav extends React.Component {
     render() {
         return (
             <div>
-<div id="homeNav">
+<div id="aboutNav">
 <a onClick={() => this.setPopup(this.comNav)}>≡­­­</a>
 </div>
 {this.state.popupIsShowing && <PopUpNav content={this.popupContent} togglePopup={this.togglePopup}/>}
@@ -36,14 +36,14 @@ setPopup = (content) => {
 comNav = (
       <div id="comNavLinks">
       <ul>
+         <div className="gradient"><li><Link to='/'>Home</Link></li></div>
          <div className="gradient"><li><Link to='/Portfolio'>Portfolio</Link></li></div>
          <div className="gradient"><li><Link to='/Commission'>Commission</Link></li></div>
          <div className="gradient"><li><Link to='/Shop'>Shop</Link></li></div>
-        <div className="gradient"><li><Link to='/Contact'>Contact Me</Link></li></div>
-        <div className="gradient"><li><Link to='/About'>About Me</Link></li></div>
+         <div className="gradient"><li><Link to='/Contact'>Contact Me</Link></li></div>
           </ul>
           </div>
 )  
 
 }
-export default HomeNav
+export default AboutMeNav

@@ -7,6 +7,7 @@ import Footer from './Footer'
 import Shop from './Shop'
 import Portfolio from './Portfolio';
 import HomeNav from './HomeNav'
+import SocialMediaNav from './SocialMediaNav';
 
 
 class Home extends React.Component {
@@ -17,6 +18,7 @@ class Home extends React.Component {
       <Router>
           <div className='headerPic pagesHeader'>
           <HomeNav />
+          <SocialMediaNav />
           <img src="IMAGES/Deathless-Studio-Logo.png" className="centerImg"></img>   
                 
       <h1>PORTFOLIO</h1>
