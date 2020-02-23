@@ -186,6 +186,31 @@ h1 {
 
 /* ------ Portfolio Logo ------ */
 
+  /* Responsive layout - makes port logo fit better to scale */
+  @media screen and (max-width: 1400px) {
+    #portLogo {
+      height: 800px;
+      width: auto;
+    }
+  }
+
+
+  /* Responsive layout - makes port logo fit better to scale */
+  @media screen and (max-width: 800px) {
+    #portLogo {
+      height: 600px;
+      width: auto;
+    }
+  }
+
+   /* Responsive layout - makes port logo fit better to scale */
+  @media screen and (max-width: 600px) {
+    #portLogo{
+      height: 330px;
+      width: auto;
+    }
+  }
+
 .portfolioPic {
   
     height: auto;
@@ -221,6 +246,31 @@ h1 {
 
 
 /* ------ Commission Logo ------ */
+
+  /* Responsive layout - makes port logo fit better to scale */
+  @media screen and (max-width: 1400px) {
+    #comLogo {
+      height: 800px;
+      width: auto;
+    }
+  }
+
+
+  /* Responsive layout - makes port logo fit better to scale */
+  @media screen and (max-width: 800px) {
+    #comLogo {
+      height: 600px;
+      width: auto;
+    }
+  }
+
+   /* Responsive layout - makes port logo fit better to scale */
+  @media screen and (max-width: 600px) {
+    #comLogo{
+      height: 330px;
+      width: auto;
+    }
+  }
 
 .commissionPic {
     
