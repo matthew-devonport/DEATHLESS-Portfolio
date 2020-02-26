@@ -395,7 +395,7 @@ h1 {
    /* Responsive layout - makes com logo fit better to scale */
   @media screen and (max-width: 600px) {
     .footer-nav li {
-      font-size: 0.5rem;
+      font-size: 0.55rem;
       padding-top: 30px;
       padding-bottom: 30px;
       margin-right: 8px;
