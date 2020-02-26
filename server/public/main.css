@@ -353,15 +353,21 @@ h1 {
 
 .footer-nav {
     list-style: none;
-    float: left;
     color: whitesmoke;
+    display: flex;
+    justify-content: center;
 }
 
+.footer-nav li {
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  margin-right: 50px;
+}
 
 .copyrightText {
     text-align: center;
 }
-
 
 
 
@@ -722,6 +728,7 @@ a:visited {
     transition: color 0.3s;
 }
 
+
 #comNavLinks {
   font-size: 5rem;
   padding-top: 150px;
@@ -734,7 +741,8 @@ a:visited {
 	background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	-webkit-animation: hue 10s infinite linear;
+  -webkit-animation: hue 10s infinite linear;
+  
 }
 
 @-webkit-keyframes hue {
