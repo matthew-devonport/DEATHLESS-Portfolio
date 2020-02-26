@@ -369,6 +369,49 @@ h1 {
     text-align: center;
 }
 
+  /* Responsive layout - makes com logo fit better to scale */
+  @media screen and (max-width: 1400px) {
+    .footer-nav li {
+      padding-left: 20px;
+      padding-top: 20px;
+      padding-bottom: 50px;
+      margin-right: 50px;
+    }
+  }
+
+
+  /* Responsive layout - makes com logo fit better to scale */
+  @media screen and (max-width: 800px) {
+    .footer-nav li {
+      font-size: 0.8rem;
+      padding-left: 10px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      margin-right: 40px;
+      text-align: center;
+    }
+  }
+
+   /* Responsive layout - makes com logo fit better to scale */
+  @media screen and (max-width: 600px) {
+    .footer-nav li {
+      font-size: 0.5rem;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      margin-right: 8px;
+    }
+
+  ul {
+    padding-inline-end: 40px;
+    }
+
+  }
+
+  .copyrightText {
+    font-size: 0.7rem;
+    padding-bottom: 20px;
+   
+}
 
 
 /* ------ Work Page ------ */
