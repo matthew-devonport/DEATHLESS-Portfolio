@@ -15,12 +15,11 @@ class Home extends React.Component {
 
   render () {
     return (
-      <Router>
+      <React.Fragment>
           <div className='headerPic pagesHeader'>
           <HomeNav />
           <SocialMediaNav />
-          <img src="IMAGES/Deathless-Studio-Logo.png" className="centerImg"></img>   
-                
+          <img src="IMAGES/Deathless-Studio-Logo.png" className="centerImg" id="homeLogo"></img>                  
       <h1>PORTFOLIO</h1>
           <Link to='/portfolio'>
             <Portfolio />
@@ -36,7 +35,7 @@ class Home extends React.Component {
       <div className='bannerSpace'></div>
       <Footer />
       </div> 
-      </Router>
+      </React.Fragment>
       
     )
   }

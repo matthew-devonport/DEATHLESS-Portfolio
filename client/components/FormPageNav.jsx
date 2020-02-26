@@ -19,7 +19,7 @@ class FormPageNav extends React.Component {
     render() {
         return (
             <div>
-<div id="formNav">
+<div className="pageNav">
 <a onClick={() => this.setPopup(this.comNav)}>≡­­­</a>
 </div>
 {this.state.popupIsShowing && <PopUpNav content={this.popupContent} togglePopup={this.togglePopup}/>}

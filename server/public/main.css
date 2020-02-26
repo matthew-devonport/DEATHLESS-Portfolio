@@ -30,8 +30,23 @@ h1 {
     word-spacing: 4px;
     letter-spacing: 1px;
     text-align: center;
-
 }
+
+  /* Responsive layout - makes nav icon smaller*/
+  /* @media screen and (max-width: 800px) {
+    .pageNav {
+      font-size: 3rem;
+      margin-left: 20px;
+      margin-top: 5px;
+    }
+  } */
+
+   /* Responsive layout - makes nav icon smaller*/
+  @media screen and (max-width: 600px) {
+    h1 {
+      font-size: 1.6rem;
+    }
+  }
 
 
 .linkLogos {
@@ -43,6 +58,32 @@ h1 {
 }
 
 /* ------ Header ------ */
+
+  /* Responsive layout - makes home logo fit better to scale */
+  @media screen and (max-width: 1400px) {
+    #homeLogo {
+      height: 1000px;
+      width: auto;
+    }
+  }
+
+
+  /* Responsive layout - makes home logo fit better to scale */
+  @media screen and (max-width: 800px) {
+    #homeLogo {
+      height: 700px;
+      width: auto;
+    }
+  }
+
+   /* Responsive layout - makes home logo fit better to scale */
+  @media screen and (max-width: 600px) {
+    #homeLogo {
+      height: 400px;
+      width: auto;
+    }
+  }
+
 
 
 .background {
@@ -89,8 +130,32 @@ h1 {
   margin-right: 20px;
   z-index: 5;
   
-
 }
+
+/* ------ RESPONSIVE instaIcon ------ /*
+
+
+  
+  /* Responsive layout - makes the insta icon smaller */
+  @media screen and (max-width: 800px) {
+    #instaIcon {
+      height: 50px;
+      width: 50px;
+      margin-right: 13px;
+      margin-top: 16px;
+    }
+  }
+
+  
+  /* Responsive layout - makes the insta icon smaller */
+  @media screen and (max-width: 600px) {
+    #instaIcon {
+      height: 30px;
+      width: 30px;
+      margin-right: 10px;
+      margin-top: 10px;
+    }
+  }
 
 .centerImg {
     display: block;
@@ -120,6 +185,31 @@ h1 {
 
 
 /* ------ Portfolio Logo ------ */
+
+  /* Responsive layout - makes port logo fit better to scale */
+  @media screen and (max-width: 1400px) {
+    #portLogo {
+      height: 800px;
+      width: auto;
+    }
+  }
+
+
+  /* Responsive layout - makes port logo fit better to scale */
+  @media screen and (max-width: 800px) {
+    #portLogo {
+      height: 600px;
+      width: auto;
+    }
+  }
+
+   /* Responsive layout - makes port logo fit better to scale */
+  @media screen and (max-width: 600px) {
+    #portLogo{
+      height: 330px;
+      width: auto;
+    }
+  }
 
 .portfolioPic {
   
@@ -156,6 +246,31 @@ h1 {
 
 
 /* ------ Commission Logo ------ */
+
+  /* Responsive layout - makes com logo fit better to scale */
+  @media screen and (max-width: 1400px) {
+    #comLogo {
+      height: 800px;
+      width: auto;
+    }
+  }
+
+
+  /* Responsive layout - makes com logo fit better to scale */
+  @media screen and (max-width: 800px) {
+    #comLogo {
+      height: 600px;
+      width: auto;
+    }
+  }
+
+   /* Responsive layout - makes com logo fit better to scale */
+  @media screen and (max-width: 600px) {
+    #comLogo{
+      height: 330px;
+      width: auto;
+    }
+  }
 
 .commissionPic {
     
@@ -238,11 +353,64 @@ h1 {
 
 .footer-nav {
     list-style: none;
-    float: left;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-nav li {
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  margin-right: 50px;
 }
 
 .copyrightText {
     text-align: center;
+}
+
+  /* Responsive layout - makes com logo fit better to scale */
+  @media screen and (max-width: 1400px) {
+    .footer-nav li {
+      padding-left: 20px;
+      padding-top: 20px;
+      padding-bottom: 50px;
+      margin-right: 50px;
+    }
+  }
+
+
+  /* Responsive layout - makes com logo fit better to scale */
+  @media screen and (max-width: 800px) {
+    .footer-nav li {
+      font-size: 0.8rem;
+      padding-left: 10px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      margin-right: 40px;
+      text-align: center;
+    }
+  }
+
+   /* Responsive layout - makes com logo fit better to scale */
+  @media screen and (max-width: 600px) {
+    .footer-nav li {
+      font-size: 0.55rem;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      margin-right: 8px;
+    }
+
+  ul {
+    padding-inline-end: 40px;
+    }
+
+  }
+
+  .copyrightText {
+    font-size: 0.7rem;
+    padding-bottom: 20px;
+   
 }
 
 
@@ -291,8 +459,6 @@ h1 {
     background-position: top;
     background-attachment: fixed;
     background-size: cover;
-    /* height: 100%;
-    width: 100%; */
 }
 
 
@@ -366,6 +532,31 @@ h1 {
   }
 
   /* ------ Form ------- */
+
+    /* Responsive layout - makes form logo fit better to scale */
+    @media screen and (max-width: 1400px) {
+      #formLogo {
+        height: 800px;
+        width: auto;
+      }
+    }
+  
+  
+    /* Responsive layout - makes form logo fit better to scale */
+    @media screen and (max-width: 800px) {
+      #formLogo {
+        height: 600px;
+        width: auto;
+      }
+    }
+  
+     /* Responsive layout - makes form logo fit better to scale */
+    @media screen and (max-width: 600px) {
+      #formLogo{
+        height: 300px;
+        width: auto;
+      }
+    }
 
   .formTitle {
     font-size: 450%;
@@ -499,7 +690,34 @@ h1 {
 
 /* ----- ABOUT ME ------ */
 
+  /* Responsive layout - makes about logo fit better to scale */
+  @media screen and (max-width: 1400px) {
+    #aboutLogo {
+      height: 800px;
+      width: auto;
+    }
+  }
+
+
+  /* Responsive layout - makes about logo fit better to scale */
+  @media screen and (max-width: 800px) {
+    #aboutLogo {
+      height: 600px;
+      width: auto;
+    }
+  }
+
+   /* Responsive layout - makes about logo fit better to scale */
+  @media screen and (max-width: 600px) {
+    #aboutLogo{
+      height: 300px;
+      width: auto;
+    }
+  }
+
 #parryOne {
+  height: 30vh;
+  width: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -512,59 +730,38 @@ h1 {
 
   /* ---- Navs ----- */
 
-  #formNav {
-    color: yellow;
-    position: fixed;
-    font-size: 5rem;
-    float: left;
-    margin-left: 40px;
-    cursor: pointer;
-    z-index: 5;
-  }
+.pageNav {
+  color: yellow;
+  position: fixed;
+  font-size: 5rem;
+  float: left;
+  margin-left: 40px;
+  cursor: pointer;
+  z-index: 5;
+}
 
 
+/* ------ RESPONSIVE instaIcon ------ /*
 
 
-#portNav {
-    color: yellow;
-    position: fixed;
-    font-size: 5rem;
-    float: left;
-    margin-left: 40px;
-    cursor: pointer;
-    z-index: 5;
-  }
   
+  /* Responsive layout - makes nav icon smaller*/
+  @media screen and (max-width: 800px) {
+    .pageNav {
+      font-size: 3rem;
+      margin-left: 20px;
+      margin-top: 5px;
+    }
+  }
 
-#comNav {
-  color: yellow;
-  position: fixed;
-  font-size: 5rem;
-  float: left;
-  margin-left: 40px;
-  cursor: pointer;
-  z-index: 5;
-}
-
-#aboutNav {
-  color: yellow;
-  position: fixed;
-  font-size: 5rem;
-  float: left;
-  margin-left: 40px;
-  cursor: pointer;
-  z-index: 5;
-}
-
-#homeNav {
-  color: yellow;
-  position: fixed;
-  font-size: 5rem;
-  float: left;
-  margin-left: 40px;
-  cursor: pointer;
-  z-index: 5;
-}
+   /* Responsive layout - makes nav icon smaller*/
+  @media screen and (max-width: 600px) {
+    .pageNav {
+      font-size: 1.6rem;
+      margin-left: 10px;
+      margin-top: 5px;
+    }
+  }
 
 a:link,
 a:visited {
@@ -574,10 +771,12 @@ a:visited {
     transition: color 0.3s;
 }
 
+
 #comNavLinks {
   font-size: 5rem;
   padding-top: 150px;
 }
+
 
 .gradient:hover,
 .gradient:active {
@@ -585,7 +784,8 @@ a:visited {
 	background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	-webkit-animation: hue 10s infinite linear;
+  -webkit-animation: hue 10s infinite linear;
+  
 }
 
 @-webkit-keyframes hue {
