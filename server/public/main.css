@@ -701,6 +701,38 @@ h1 {
     opacity: 1;
   }
   
+  /* Responsive layout - makes about form title text fit better to scale */
+  @media screen and (max-width: 1400px) {
+    .formTitles {
+      font-size: 2rem;
+    }
+
+  #newsletter {
+    font-size: 1rem;
+  }
+  }
+
+
+  /* Responsive layout - makes about form title text fit better to scale */
+  @media screen and (max-width: 800px) {
+    .formTitles {
+      font-size: 1.5rem;
+    }
+    #newsletter {
+      font-size: 1rem;
+    }
+  }
+
+   /* Responsive layout - makes about form title text fit better to scale */
+   @media screen and (max-width: 600px) {
+   .formTitles {
+    font-size: 1rem;
+     }
+     #newsletter {
+      font-size: 1rem;
+    }
+  }
+
   #messageForm textarea{
     height: 400px;
     width: 100%;
@@ -732,6 +764,65 @@ h1 {
     font-size: 2.4rem;
     font-weight: 200;
   }
+
+    /* Responsive layout - makes about nav text fit better to scale */
+    @media screen and (max-width: 1800px) {
+    #newsletter {
+      font-size: 2rem;
+    }
+    }
+
+      /* Responsive layout - makes about nav text fit better to scale */
+      @media screen and (max-width: 1550px) {
+        #newsletter {
+          font-size: 1.8rem;
+        }
+      }
+
+      /* Responsive layout - makes about nav text fit better to scale */
+       @media screen and (max-width: 1420px) {
+        #newsletter {
+          font-size: 1.5rem;
+        }
+      }
+
+      /* Responsive layout - makes about nav text fit better to scale */
+      @media screen and (max-width: 1400px) {
+        #newsletter {
+          font-size: 1.4rem;
+        }
+      }
+
+      /* Responsive layout - makes about nav text fit better to scale */
+      @media screen and (max-width: 1200px) {
+        #newsletter {
+          font-size: 2.4rem;
+        }
+      }     
+
+      /* Responsive layout - makes about nav text fit better to scale */
+      @media screen and (max-width: 900px) {
+        #newsletter {
+          font-size: 1.8rem;
+        }
+      }          
+
+
+    /* Responsive layout - makes about nav text fit better to scale */
+    @media screen and (max-width: 766px) {
+      #newsletter {
+        margin-top: 33px;
+        font-size: 1.4rem;
+      }
+    }
+  
+     /* Responsive layout - makes about nav text fit better to scale */
+     @media screen and (max-width: 600px) {
+       #newsletter {
+        font-size: 1rem;
+        margin-top: 40px;
+      }
+    }
 
   #newsletterLayout
   {
