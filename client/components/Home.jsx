@@ -19,7 +19,7 @@ class Home extends React.Component {
           <div className='headerPic pagesHeader'>
           <HomeNav />
           <SocialMediaNav />
-          <img src="IMAGES/Deathless-Studio-Logo.png" className="centerImg" id="homeLogo"></img>                  
+          <img src="IMAGES/Deathless-Studio-Logo.png" className="centerImg" id="homeLogo"></img>              
       <h1>PORTFOLIO</h1>
           <Link to='/portfolio'>
             <Portfolio />

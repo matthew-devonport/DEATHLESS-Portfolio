@@ -121,12 +121,12 @@ h1 {
 }
 
 #instaIcon {
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
   position: fixed;
   right: 0;
   top: 0;
-  margin-top: 17px;
+  margin-top: 27px;
   margin-right: 20px;
   z-index: 5;
   
@@ -179,6 +179,27 @@ h1 {
 }
 
 
+  /* Responsive layout - makes port hover text fit better to scale */
+  @media screen and (max-width: 1400px) {
+    .bannerSpace {
+      margin-bottom: 150px;
+    }
+  }
+
+
+  /* Responsive layout - makes port hover text fit better to scale */
+  @media screen and (max-width: 800px) {
+    .bannerSpace {
+      margin-bottom: 100px;
+    }
+  }
+
+   /* Responsive layout - makes port hover text fit better to scale */
+  @media screen and (max-width: 600px) {
+    .bannerSpace {
+      margin-bottom: 50px;
+    }
+  }
 
 
 
@@ -244,33 +265,34 @@ h1 {
     opacity: 0.95;
 }
 
+  /* Responsive layout - makes port hover text fit better to scale */
+  @media screen and (max-width: 1400px) {
+    .portfolioPic::before {
+      font-size: 3rem;
+      font-weight: 400;
+    }
+  }
+
+
+  /* Responsive layout - makes port hover text fit better to scale */
+  @media screen and (max-width: 800px) {
+    .portfolioPic::before {
+      font-size: 2rem;
+      font-weight: 400;
+    }
+  }
+
+   /* Responsive layout - makes port hover text fit better to scale */
+  @media screen and (max-width: 600px) {
+    .portfolioPic::before{
+      font-size: 2rem;
+      font-weight: 400;
+    }
+  }
+
 
 /* ------ Commission Logo ------ */
-
-  /* Responsive layout - makes com logo fit better to scale */
-  @media screen and (max-width: 1400px) {
-    #comLogo {
-      height: 800px;
-      width: auto;
-    }
-  }
-
-
-  /* Responsive layout - makes com logo fit better to scale */
-  @media screen and (max-width: 800px) {
-    #comLogo {
-      height: 600px;
-      width: auto;
-    }
-  }
-
-   /* Responsive layout - makes com logo fit better to scale */
-  @media screen and (max-width: 600px) {
-    #comLogo{
-      height: 330px;
-      width: auto;
-    }
-  }
+  
 
 .commissionPic {
     
@@ -304,6 +326,44 @@ h1 {
 .commissionPic:hover::before {
     opacity: 0.95;
 }
+
+  /* Responsive layout - makes com logo and hover text fit better to scale */
+  @media screen and (max-width: 1400px) {
+    #comLogo {
+      height: 800px;
+      width: auto;
+    }
+    .commissionPic::before {
+      font-size: 3rem;
+      font-weight: 400;
+    }
+  }
+  
+  /* Responsive layout - makes com logo and hover text fit better to scale */
+  @media screen and (max-width: 800px) {
+    #comLogo {
+      height: 600px;
+      width: auto;
+    }
+    .commissionPic::before {
+      font-size: 2rem;
+      font-weight: 400;
+    }
+  }
+  
+
+   /* Responsive layout - makes com logo and hover text fit better to scale */
+  @media screen and (max-width: 600px) {
+    #comLogo{
+      height: 330px;
+      width: auto;
+    }
+    .commissionPic::before {
+      font-size: 2rem;
+      font-weight: 400;
+    }
+  }
+
 
 
 /* ------ Shop Logo ------ */
@@ -341,6 +401,31 @@ h1 {
     opacity: 0.95;
 }
 
+  /* Responsive layout - makes port hover text fit better to scale */
+  @media screen and (max-width: 1400px) {
+    .shopPic::before {
+      font-size: 3rem;
+      font-weight: 400;
+    }
+  }
+
+
+  /* Responsive layout - makes port hover text fit better to scale */
+  @media screen and (max-width: 800px) {
+    .shopPic::before {
+      font-size: 2rem;
+      font-weight: 400;
+    }
+  }
+
+   /* Responsive layout - makes port hover text fit better to scale */
+  @media screen and (max-width: 600px) {
+    .shopPic::before{
+      font-size: 2rem;
+      font-weight: 400;
+    }
+  }
+
 /* ------ Footer ------ */
 #footer {
     background-color: black;
@@ -369,7 +454,7 @@ h1 {
     text-align: center;
 }
 
-  /* Responsive layout - makes com logo fit better to scale */
+  /* Responsive layout - makes com footer better to scale */
   @media screen and (max-width: 1400px) {
     .footer-nav li {
       padding-left: 20px;
@@ -380,7 +465,7 @@ h1 {
   }
 
 
-  /* Responsive layout - makes com logo fit better to scale */
+  /* Responsive layout - makes footer better to scale */
   @media screen and (max-width: 800px) {
     .footer-nav li {
       font-size: 0.8rem;
@@ -392,7 +477,7 @@ h1 {
     }
   }
 
-   /* Responsive layout - makes com logo fit better to scale */
+   /* Responsive layout - makes footer better to scale */
   @media screen and (max-width: 600px) {
     .footer-nav li {
       font-size: 0.55rem;
@@ -409,9 +494,15 @@ h1 {
 
   .copyrightText {
     font-size: 0.7rem;
-    padding-bottom: 20px;
-   
+    padding-bottom: 20px;  
 }
+
+   /* Responsive layout - makes copyright text better to scale */
+   @media screen and (max-width: 600px) {
+    .copyrightText {
+      font-size: 0.5rem
+    }
+  }
 
 
 /* ------ Work Page ------ */
@@ -509,10 +600,11 @@ h1 {
   
   #popup-close {
     position: absolute;
-    top: 8px;
-    right: 160px;
+    top: 0;
+    right: 0;
+    margin-right: 30px;
     transition: all 200ms;
-    font-size: 5vw;
+    font-size: 10rem;
     font-weight: bold;
     text-decoration: none;
       color: yellow;
@@ -530,6 +622,67 @@ h1 {
     margin: auto;
     padding: 60px 0 0;
   }
+
+/* Responsive layout - makes form logo fit better to scale */
+@media screen and (max-width: 500px) {
+  .picOne {
+  justify-content: center;
+   align-items: center;
+   vertical-align: middle;
+   margin-top: 10%;
+   margin-bottom: 50%;
+    }
+  }
+
+
+/* Responsive layout - makes form logo fit better to scale */
+@media screen and (max-width: 400px) {
+  .picOne {
+  justify-content: center;
+   align-items: center;
+   vertical-align: middle;
+   margin-top: 20%;
+   margin-bottom: 50%;
+    }
+  }
+
+
+/* Responsive layout - makes form logo fit better to scale */
+       @media screen and (max-width: 330px) {
+        .picOne {
+        justify-content: center;
+         align-items: center;
+         vertical-align: middle;
+         margin-top: 40%;
+         margin-bottom: 50%;
+          }
+        }
+
+
+
+      /* Responsive layout - makes form logo fit better to scale */
+      @media screen and (max-width: 1400px) {
+        #popup-close {
+          font-size: 7rem;
+          margin-right: 16px;
+        }
+      }
+    
+    
+      /* Responsive layout - makes form logo fit better to scale */
+      @media screen and (max-width: 800px) {
+        #popup-close {
+          font-size: 5rem;
+          margin-right: 10px;
+        }
+      }
+    
+       /* Responsive layout - makes form logo fit better to scale */
+      @media screen and (max-width: 600px) {
+        #popup-close {
+          font-size: 3rem;
+        }
+      }
 
   /* ------ Form ------- */
 
@@ -566,6 +719,15 @@ h1 {
     color: yellow
   }
 
+       /* Responsive layout - makes form logo fit better to scale */
+       @media screen and (max-width: 600px) {
+        .formTitle {
+     font-size: 300%;
+     padding-left: 5%;
+     padding-right: 5%;
+        }
+      }
+
   .formContainer {
     background-image: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ), url(/Images/Commission-Work-Pics/Contact-Form-Pic.jpg);
     background-size: cover;
@@ -591,6 +753,38 @@ h1 {
     opacity: 1;
   }
   
+  /* Responsive layout - makes about form title text fit better to scale */
+  @media screen and (max-width: 1400px) {
+    .formTitles {
+      font-size: 2rem;
+    }
+
+  #newsletter {
+    font-size: 1rem;
+  }
+  }
+
+  /* Responsive layout - makes about form title text fit better to scale */
+  
+  @media screen and (max-width: 800px) {
+    .formTitles {
+      font-size: 1.5rem;
+    }
+    #newsletter {
+      font-size: 1rem;
+    }
+  }
+
+   /* Responsive layout - makes about form title text fit better to scale */
+   @media screen and (max-width: 600px) {
+   .formTitles {
+    font-size: 1rem;
+     }
+     #newsletter {
+      font-size: 1rem;
+    }
+  }
+
   #messageForm textarea{
     height: 400px;
     width: 100%;
@@ -616,12 +810,93 @@ h1 {
     margin-bottom: 5px;
   }
 
+/* Responsive layout - makes about newsletter button text fit better to scale */
+  @media screen and (max-width: 1400px) {
+      .contact input[type="checkbox"] {
+      width: 30px
+    }
+  }
+  
+    /* Responsive layout - makes about newsletter button fit better to scale */
+    @media screen and (max-width: 800px) {
+      .contact input[type="checkbox"] {
+        width: 25px;
+      }
+    }
+  
+     /* Responsive layout - makes about newsletter button fit better to scale */
+    @media screen and (max-width: 600px) {
+      .contact input[type="checkbox"] {
+        width: 20px;
+      }
+    }
+
   #newsletter {
     margin-top: 23px;
     margin-left: 20px;
     font-size: 2.4rem;
     font-weight: 200;
   }
+
+    /* Responsive layout - makes about nav text fit better to scale */
+    @media screen and (max-width: 1800px) {
+    #newsletter {
+      font-size: 2rem;
+    }
+    }
+
+      /* Responsive layout - makes about newsletter txt fit better to scale */
+      @media screen and (max-width: 1550px) {
+        #newsletter {
+          font-size: 1.8rem;
+        }
+      }
+
+      /* Responsive layout - makes about newsletter txt fit better to scale */
+       @media screen and (max-width: 1420px) {
+        #newsletter {
+          margin-top: 33px;
+          font-size: 1.6rem;
+        }
+      }
+
+      /* Responsive layout - makes about newsletter txt fit better to scale */
+      @media screen and (max-width: 1400px) {
+        #newsletter {
+          font-size: 1.5em;
+        }
+      }
+
+      /* Responsive layout - makes about newsletter txt fit better to scale */
+      @media screen and (max-width: 1200px) {
+        #newsletter {
+          font-size: 2.4rem;
+        }
+      }     
+
+      /* Responsive layout - makes about newsletter txt fit better to scale */
+      @media screen and (max-width: 900px) {
+        #newsletter {
+          font-size: 1.8rem;
+        }
+      }          
+
+
+    /* Responsive layout - makes about newsletter txt fit better to scale */
+    @media screen and (max-width: 766px) {
+      #newsletter {
+        margin-top: 33px;
+        font-size: 1.4rem;
+      }
+    }
+  
+     /* Responsive layout - makes about newsletter txt fit better to scale */
+     @media screen and (max-width: 600px) {
+       #newsletter {
+        font-size: 1.1rem;
+        margin-top: 37px;
+      }
+    }
 
   #newsletterLayout
   {
@@ -772,11 +1047,42 @@ a:visited {
 }
 
 
-#comNavLinks {
+.comNavLinks {
   font-size: 5rem;
   padding-top: 150px;
 }
 
+  /* Responsive layout - makes about nav text fit better to scale */
+  @media screen and (max-width: 1400px) {
+    .comNavLinks {
+      font-size: 5rem;
+    }
+    #navPic {
+     display: none;
+
+    }
+  }
+
+
+  /* Responsive layout - makes about nav text fit better to scale */
+  @media screen and (max-width: 800px) {
+    .comNavLinks {
+      font-size: 4rem;
+    }  
+    #navPic {      
+      display: none;
+     }
+  }
+
+   /* Responsive layout - makes about nav text fit better to scale */
+   @media screen and (max-width: 600px) {
+   .comNavLinks {
+    font-size: 3rem;
+    }
+    #navPic {
+      display: none;
+     }
+  }
 
 .gradient:hover,
 .gradient:active {
@@ -835,7 +1141,28 @@ a:visited {
   #navPic {
     height: 850px;
     width: auto;
-    position: absolute;
-    top: 50px;
-    right: 330px;
+    position: fixed;
+    top: 0;
+    right: 0;
   }
+
+    /* Responsive layout - makes about logo fit better to scale */
+
+  
+    /* Responsive layout - makes about logo fit better to scale */
+    @media screen and (max-width: 800px) {
+      #navPopup-close {
+        font-size: 3rem;
+        margin-left: 20px;
+        margin-top: 5px;
+      }
+    }
+  
+     /* Responsive layout - makes about logo fit better to scale */
+    @media screen and (max-width: 600px) {
+      #navPopup-close {
+        font-size: 1.6rem;
+        margin-left: 10px;
+        margin-top: 5px;
+      }
+    }
