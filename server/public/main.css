@@ -465,7 +465,7 @@ h1 {
   }
 
 
-  /* Responsive layout - makes com footer better to scale */
+  /* Responsive layout - makes footer better to scale */
   @media screen and (max-width: 800px) {
     .footer-nav li {
       font-size: 0.8rem;
@@ -477,7 +477,7 @@ h1 {
     }
   }
 
-   /* Responsive layout - makes com footer better to scale */
+   /* Responsive layout - makes footer better to scale */
   @media screen and (max-width: 600px) {
     .footer-nav li {
       font-size: 0.55rem;
@@ -494,9 +494,15 @@ h1 {
 
   .copyrightText {
     font-size: 0.7rem;
-    padding-bottom: 20px;
-   
+    padding-bottom: 20px;  
 }
+
+   /* Responsive layout - makes copyright text better to scale */
+   @media screen and (max-width: 600px) {
+    .copyrightText {
+      font-size: 0.5rem
+    }
+  }
 
 
 /* ------ Work Page ------ */
@@ -616,6 +622,43 @@ h1 {
     margin: auto;
     padding: 60px 0 0;
   }
+
+/* Responsive layout - makes form logo fit better to scale */
+@media screen and (max-width: 500px) {
+  .picOne {
+  justify-content: center;
+   align-items: center;
+   vertical-align: middle;
+   margin-top: 10%;
+   margin-bottom: 50%;
+    }
+  }
+
+
+/* Responsive layout - makes form logo fit better to scale */
+@media screen and (max-width: 400px) {
+  .picOne {
+  justify-content: center;
+   align-items: center;
+   vertical-align: middle;
+   margin-top: 20%;
+   margin-bottom: 50%;
+    }
+  }
+
+
+/* Responsive layout - makes form logo fit better to scale */
+       @media screen and (max-width: 330px) {
+        .picOne {
+        justify-content: center;
+         align-items: center;
+         vertical-align: middle;
+         margin-top: 40%;
+         margin-bottom: 50%;
+          }
+        }
+
+
 
       /* Responsive layout - makes form logo fit better to scale */
       @media screen and (max-width: 1400px) {
