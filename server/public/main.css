@@ -594,10 +594,11 @@ h1 {
   
   #popup-close {
     position: absolute;
-    top: 8px;
-    right: 160px;
+    top: 0;
+    right: 0;
+    margin-right: 30px;
     transition: all 200ms;
-    font-size: 5vw;
+    font-size: 10rem;
     font-weight: bold;
     text-decoration: none;
       color: yellow;
@@ -615,6 +616,31 @@ h1 {
     margin: auto;
     padding: 60px 0 0;
   }
+
+      /* Responsive layout - makes form logo fit better to scale */
+      @media screen and (max-width: 1400px) {
+        #popup-close {
+          font-size: 7rem;
+          margin-right: 16px;
+        }
+      }
+    
+    
+      /* Responsive layout - makes form logo fit better to scale */
+      @media screen and (max-width: 800px) {
+        #popup-close {
+          font-size: 5rem;
+          margin-right: 10px;
+        }
+      }
+    
+       /* Responsive layout - makes form logo fit better to scale */
+      @media screen and (max-width: 600px) {
+        #popup-close {
+          font-size: 3rem;
+          /* margin-right: 40px; */
+        }
+      }
 
   /* ------ Form ------- */
 
@@ -924,3 +950,24 @@ a:visited {
     top: 50px;
     right: 330px;
   }
+
+    /* Responsive layout - makes about logo fit better to scale */
+
+  
+    /* Responsive layout - makes about logo fit better to scale */
+    @media screen and (max-width: 800px) {
+      #navPopup-close {
+        font-size: 3rem;
+        margin-left: 20px;
+        margin-top: 5px;
+      }
+    }
+  
+     /* Responsive layout - makes about logo fit better to scale */
+    @media screen and (max-width: 600px) {
+      #navPopup-close {
+        font-size: 1.6rem;
+        margin-left: 10px;
+        margin-top: 5px;
+      }
+    }
