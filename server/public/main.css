@@ -638,7 +638,6 @@ h1 {
       @media screen and (max-width: 600px) {
         #popup-close {
           font-size: 3rem;
-          /* margin-right: 40px; */
         }
       }
 
@@ -883,11 +882,42 @@ a:visited {
 }
 
 
-#comNavLinks {
+.comNavLinks {
   font-size: 5rem;
   padding-top: 150px;
 }
 
+  /* Responsive layout - makes about logo fit better to scale */
+  @media screen and (max-width: 1400px) {
+    .comNavLinks {
+      font-size: 5rem;
+    }
+    #navPic {
+     display: none;
+
+    }
+  }
+
+
+  /* Responsive layout - makes about logo fit better to scale */
+  @media screen and (max-width: 800px) {
+    .comNavLinks {
+      font-size: 4rem;
+    }  
+    #navPic {      
+      display: none;
+     }
+  }
+
+   /* Responsive layout - makes about logo fit better to scale */
+   @media screen and (max-width: 600px) {
+   .comNavLinks {
+    font-size: 3rem;
+    }
+    #navPic {
+      display: none;
+     }
+  }
 
 .gradient:hover,
 .gradient:active {
