@@ -676,6 +676,15 @@ h1 {
     color: yellow
   }
 
+       /* Responsive layout - makes form logo fit better to scale */
+       @media screen and (max-width: 600px) {
+        .formTitle {
+     font-size: 300%;
+     padding-left: 5%;
+     padding-right: 5%;
+        }
+      }
+
   .formContainer {
     background-image: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ), url(/Images/Commission-Work-Pics/Contact-Form-Pic.jpg);
     background-size: cover;
@@ -712,8 +721,8 @@ h1 {
   }
   }
 
-
   /* Responsive layout - makes about form title text fit better to scale */
+  
   @media screen and (max-width: 800px) {
     .formTitles {
       font-size: 1.5rem;
@@ -758,6 +767,27 @@ h1 {
     margin-bottom: 5px;
   }
 
+/* Responsive layout - makes about newsletter button text fit better to scale */
+  @media screen and (max-width: 1400px) {
+      .contact input[type="checkbox"] {
+      width: 30px
+    }
+  }
+  
+    /* Responsive layout - makes about newsletter button fit better to scale */
+    @media screen and (max-width: 800px) {
+      .contact input[type="checkbox"] {
+        width: 25px;
+      }
+    }
+  
+     /* Responsive layout - makes about newsletter button fit better to scale */
+    @media screen and (max-width: 600px) {
+      .contact input[type="checkbox"] {
+        width: 20px;
+      }
+    }
+
   #newsletter {
     margin-top: 23px;
     margin-left: 20px;
@@ -772,35 +802,36 @@ h1 {
     }
     }
 
-      /* Responsive layout - makes about nav text fit better to scale */
+      /* Responsive layout - makes about newsletter txt fit better to scale */
       @media screen and (max-width: 1550px) {
         #newsletter {
           font-size: 1.8rem;
         }
       }
 
-      /* Responsive layout - makes about nav text fit better to scale */
+      /* Responsive layout - makes about newsletter txt fit better to scale */
        @media screen and (max-width: 1420px) {
         #newsletter {
-          font-size: 1.5rem;
+          margin-top: 33px;
+          font-size: 1.6rem;
         }
       }
 
-      /* Responsive layout - makes about nav text fit better to scale */
+      /* Responsive layout - makes about newsletter txt fit better to scale */
       @media screen and (max-width: 1400px) {
         #newsletter {
-          font-size: 1.4rem;
+          font-size: 1.5em;
         }
       }
 
-      /* Responsive layout - makes about nav text fit better to scale */
+      /* Responsive layout - makes about newsletter txt fit better to scale */
       @media screen and (max-width: 1200px) {
         #newsletter {
           font-size: 2.4rem;
         }
       }     
 
-      /* Responsive layout - makes about nav text fit better to scale */
+      /* Responsive layout - makes about newsletter txt fit better to scale */
       @media screen and (max-width: 900px) {
         #newsletter {
           font-size: 1.8rem;
@@ -808,7 +839,7 @@ h1 {
       }          
 
 
-    /* Responsive layout - makes about nav text fit better to scale */
+    /* Responsive layout - makes about newsletter txt fit better to scale */
     @media screen and (max-width: 766px) {
       #newsletter {
         margin-top: 33px;
@@ -816,11 +847,11 @@ h1 {
       }
     }
   
-     /* Responsive layout - makes about nav text fit better to scale */
+     /* Responsive layout - makes about newsletter txt fit better to scale */
      @media screen and (max-width: 600px) {
        #newsletter {
-        font-size: 1rem;
-        margin-top: 40px;
+        font-size: 1.1rem;
+        margin-top: 37px;
       }
     }
 
