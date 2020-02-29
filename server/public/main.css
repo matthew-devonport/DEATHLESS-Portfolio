@@ -111,7 +111,7 @@ h1 {
    /* Responsive layout - makes home logo fit better to scale */
    @media screen and (max-width: 600px) {
     .headerPic {
-      max-height: 300vh;
+      height: 300vh;
       transition: height 1000000s ease;
       -webkit-transition: height 1000000s ease;
       -moz-transition: height 1000000s ease;
