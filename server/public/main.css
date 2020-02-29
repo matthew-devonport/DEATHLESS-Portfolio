@@ -103,6 +103,7 @@ h1 {
     background-repeat: no-repeat;
     background-position: top;
     height: 100%;
+    width: 100%;
     background-attachment: fixed;
 }
 
