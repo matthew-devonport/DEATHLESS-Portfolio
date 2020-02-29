@@ -102,17 +102,10 @@ h1 {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
-    height: 100%;
+    min-height: 100%;
     background-attachment: fixed;
 }
 
-   /* Responsive layout - makes home logo fit better to scale */
-   @media screen and (max-width: 600px) {
-    .headerPic {
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
-    }
-  }
 
 #instaIcon {
   height: 80px;
