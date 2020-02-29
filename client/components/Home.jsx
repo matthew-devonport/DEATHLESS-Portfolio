@@ -32,7 +32,7 @@ class Home extends React.Component {
           <div className='bannerSpace'></div>
       <h1>DEATHLESS STORE</h1>
       <Shop />
-      <div className='bannerSpace'></div>
+      <div className='bottomPic'></div>
       <Footer />
       </div> 
       </React.Fragment>
