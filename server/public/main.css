@@ -114,6 +114,7 @@ h1 {
       height: 99.9%;
       position: fixed;
       overflow-y: scroll;
+      max-width: 100%;
   }
 
 }
