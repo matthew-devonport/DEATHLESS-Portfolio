@@ -12,7 +12,7 @@ class NavFormPage extends React.Component {
     render() {
         return (
             <React.Fragment>
-               <div className="pageBackPic">
+               <div className="headerPic">
                  <FormPageNav /> 
                  <SocialMediaNav /> 
                  <img src="IMAGES/Deathless-Studio-Form-Logo.png" className="centerImg" id="formLogo"></img>

@@ -11,7 +11,7 @@ class AboutMe extends React.Component {
     render() {
         return (
             <React.Fragment>
-          <div className='background headerPic'>
+          <div className='headerPic'>
               <AboutMeNav />
               <SocialMediaNav />
           <img src="IMAGES/Deathless-Studio-About-Logo.png" className="centerImg" id="aboutLogo"></img>
