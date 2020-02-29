@@ -112,11 +112,6 @@ h1 {
    @media screen and (max-width: 600px) {
     .headerPic {
       height: 300vh;
-      transition: height 1000000s ease;
-      -webkit-transition: height 1000000s ease;
-      -moz-transition: height 1000000s ease;
-      -o-transition: height 1000000s ease;
-    }
   }
 
 
