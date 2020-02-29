@@ -111,7 +111,7 @@ h1 {
    /* Responsive layout - makes home logo fit better to scale */
    @media screen and (max-width: 600px) {
     .headerPic {
-      height: 99.9%;
+      height: 99.99999%;
       position: fixed;
       overflow-y: scroll;
   }
