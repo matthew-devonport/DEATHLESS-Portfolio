@@ -16,7 +16,7 @@ class Home extends React.Component {
   render () {
     return (
       <React.Fragment>
-          <div className='headerPic pagesHeader'>
+          <div className='headerPic'>
           <HomeNav />
           <SocialMediaNav />
           <img src="IMAGES/Deathless-Studio-Logo.png" className="centerImg" id="homeLogo"></img>              
@@ -32,7 +32,7 @@ class Home extends React.Component {
           <div className='bannerSpace'></div>
       <h1>DEATHLESS STORE</h1>
       <Shop />
-      <div className='bottomPic'></div>
+      <div className='bannerSpace'></div>
       <Footer />
       </div> 
       </React.Fragment>
