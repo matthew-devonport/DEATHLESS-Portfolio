@@ -79,8 +79,8 @@ h1 {
    /* Responsive layout - makes home logo fit better to scale */
   @media screen and (max-width: 600px) {
     #homeLogo {
-      height: 400px;
-      width: auto;
+      height: auto;
+      width: 60%;
     }
   }
 
@@ -147,11 +147,9 @@ h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 100%;
-    width: 40%;
+    height: auto;
+    width: 50%;
   }
-
-
 
 
 
