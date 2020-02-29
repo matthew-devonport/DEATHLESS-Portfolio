@@ -109,7 +109,7 @@ h1 {
    /* Responsive layout - makes home logo fit better to scale */
    @media screen and (max-width: 600px) {
     .headerPic {
-      height: 100vh;
+      height: 120vh;
     }
   }
 
