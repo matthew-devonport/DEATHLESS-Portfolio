@@ -282,7 +282,7 @@ h1 {
    /* Responsive layout - makes port hover text fit better to scale */
   @media screen and (max-width: 600px) {
     .portfolioPic::before{
-      font-size: 2rem;
+      font-size: 1rem;
       font-weight: 400;
     }
   }
@@ -356,7 +356,7 @@ h1 {
       width: auto;
     }
     .commissionPic::before {
-      font-size: 2rem;
+      font-size: 1rem;
       font-weight: 400;
     }
   }
@@ -418,7 +418,7 @@ h1 {
    /* Responsive layout - makes port hover text fit better to scale */
   @media screen and (max-width: 600px) {
     .shopPic::before{
-      font-size: 2rem;
+      font-size: 1rem;
       font-weight: 400;
     }
   }
