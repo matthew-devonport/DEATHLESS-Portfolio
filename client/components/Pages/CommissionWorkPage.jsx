@@ -52,7 +52,7 @@ class CommissionWorkPage extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <div className="pageBackPic">
+        <div className="headerPic">
         <ComPageNav />
         <SocialMediaNav />
           <PagesHeader />

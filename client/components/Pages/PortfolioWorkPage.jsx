@@ -46,7 +46,7 @@ class PortfolioWorkPage extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <div className="pageBackPic">
+        <div className="headerPic">
         <PortPageNav />
         <SocialMediaNav />
           <PortfolioPagesHeader />
@@ -62,9 +62,9 @@ class PortfolioWorkPage extends React.Component {
                 </a>
               )
             })}
-          </div>
-        </div>
+          </div> 
         <Footer />
+        </div>
         {this.state.popupImageId !== null && (
           <PopUpBox
             togglePopup={() => this.togglePopup(null)} 
