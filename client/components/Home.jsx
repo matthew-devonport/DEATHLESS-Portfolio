@@ -41,4 +41,7 @@ class Home extends React.Component {
   }
 }
 
+window.addEventListener("load", function() { window. scrollTo(0, 0); });
+
+
 export default Home
