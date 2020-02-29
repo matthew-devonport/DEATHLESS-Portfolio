@@ -104,14 +104,14 @@ h1 {
     background-position: top;
     height: 100%;
     background-attachment: fixed;
-    position: fixed;
+    position: sticky;
     overflow-y: scroll;
 }
 
    /* Responsive layout - makes home logo fit better to scale */
    @media screen and (max-width: 600px) {
     .headerPic {
-      height: 200vh;
+      max-height: 200vh;
   }
 
 }
