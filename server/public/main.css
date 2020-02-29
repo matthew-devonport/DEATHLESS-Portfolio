@@ -109,17 +109,11 @@ h1 {
    /* Responsive layout - makes home logo fit better to scale */
    @media screen and (max-width: 600px) {
     .headerPic {
-      height: 120vh;
+      transition: height 1000000s ease;
+      -webkit-transition: height 1000000s ease;
+      -moz-transition: height 1000000s ease;
+      -o-transition: height 1000000s ease;
     }
-  }
-
-  .bottomPic {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(./Images/Header-Pic.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    height: 50px;
-    background-attachment: fixed;
   }
 
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import { HashRouter as Router, Link} from 'react-router-dom';
 
-import Header from './Header'
+
 import CommissionWork from './CommissionWork'
 import Footer from './Footer'
 import Shop from './Shop'
