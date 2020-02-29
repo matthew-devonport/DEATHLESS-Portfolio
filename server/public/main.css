@@ -104,17 +104,40 @@ h1 {
     background-position: top;
     height: 100%;
     background-attachment: fixed;
-    position: sticky;
+    position: fixed;
     overflow-y: scroll;
 }
 
-   /* Responsive layout - makes home logo fit better to scale */
-   @media screen and (max-width: 600px) {
+@mixin {
+  @media (max-device-aspect-ratio: 3/4) {
     .headerPic {
-      max-height: 200vh;
+    height: calc(100vw * 1.333 - 9%);
+  }
+}
+  @media (max-device-aspect-ratio: 2/3) {
+    .headerPic {
+    height: calc(100vw * 1.5 - 9%);
+    }
+  }
+  @media (max-device-aspect-ratio: 10/16) {
+    .headerPic {
+    height: calc(100vw * 1.6 - 9%);
+  }
+}
+  @media (max-device-aspect-ratio: 9/16) {
+    .headerPic {
+    height: calc(100vw * 1.778 - 9%);
+  }
+}
+}
+
+   /* Responsive layout - makes home logo fit better to scale */
+   /* @media screen and (max-width: 600px) {
+    .headerPic {
+      height: 200vh;
   }
 
-}
+} */
 
 #instaIcon {
   height: 80px;
