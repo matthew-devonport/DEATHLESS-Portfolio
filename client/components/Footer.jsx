@@ -20,7 +20,7 @@ class Footer extends React.Component {
                    </ul>
              <p className="copyrightText">
                 Copyright &copy; 2020 by Deathless Studio. All rights reserved.<br />
-                Website Design &amp; Build by Matthew Devonport
+                <a href="https://github.com/matthew-devonport" target="_blank" id="orangeText">Website Design &amp; Build by Matthew Devonport</a>
              </p> 
         </footer>
         </div>  

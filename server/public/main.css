@@ -58,6 +58,10 @@ h1 {
     padding-top: 20vh;
 }
 
+#orangeText {
+  color: #c79d33;
+}
+
 /* ------ Header ------ */
 
   /* Responsive layout - makes home logo fit better to scale */
@@ -84,17 +88,6 @@ h1 {
       width: auto;
     }
   }
-
-
-
-.background {
-	margin: 0 auto;
-	height: 100%;
-    width: auto;
-    max-width: 100%;
-	background-size: contain;
-	position: relative;
-}
 
 
 
@@ -174,6 +167,7 @@ h1 {
 .bannerSpace {
   display: block;
   margin-bottom: 200px;
+  height: 100%;
 }
 
 
@@ -509,6 +503,8 @@ h1 {
 .portfolioPics {
   display: flex;
   flex-wrap: wrap;
+  height: 100%;
+  background-color: transparent;
   padding: 0 20px;
   justify-content: center;
   max-width: 80%;
@@ -520,6 +516,8 @@ h1 {
 .pics {
     display: flex;
     flex-wrap: wrap;
+    height: 100%;
+    background-color: transparent;
     padding: 0 20px;
     justify-content: center;
     max-width: 80%;
@@ -582,6 +580,7 @@ h1 {
 
   #popup-overlay {
     position: fixed;
+    height: 100%;
     top: 0;
     bottom: 0;
     left: 0;
@@ -678,6 +677,7 @@ h1 {
 
   .formTitle {
     font-size: 450%;
+    height: 100%;
     word-spacing: 4px;
     text-align: center;
     padding-bottom: 8%;
@@ -698,6 +698,7 @@ h1 {
     background-size: cover;
     background-position: center;
     background-attachment: initial;
+    height: 100%;
     color: rgb(245, 57, 88);
     padding: 25px;
     margin: 150px 0;
