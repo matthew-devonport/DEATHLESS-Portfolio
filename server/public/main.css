@@ -533,8 +533,7 @@ h1 {
     vertical-align: middle;
   }
   
-  .pic img {
-    background-image: url(./Images/lazy-background.jpg);
+  .pic img { 
     margin-top: 10px;
     background-color: black;
     width: 100%;
