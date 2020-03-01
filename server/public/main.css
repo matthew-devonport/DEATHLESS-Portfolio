@@ -64,6 +64,10 @@ h1 {
 
 /* ------ Header ------ */
 
+.headerContainer {
+  height: 100vh;
+}
+
   /* Responsive layout - makes home logo fit better to scale */
   @media screen and (max-width: 1400px) {
     #homeLogo {
@@ -157,8 +161,6 @@ h1 {
     height: auto;
     width: 50%;
   }
-
-
 
 
 
