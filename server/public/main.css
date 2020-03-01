@@ -532,6 +532,7 @@ h1 {
   }
   
   .pic img {
+    background-image: url(./Images/lazy-background.jpg);
     margin-top: 10px;
     background-color: black;
     width: 100%;
