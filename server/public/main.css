@@ -503,7 +503,6 @@ h1 {
 .portfolioPics {
   display: flex;
   flex-wrap: wrap;
-  height: 100%;
   background-color: transparent;
   padding: 0 20px;
   justify-content: center;
@@ -516,7 +515,6 @@ h1 {
 .pics {
     display: flex;
     flex-wrap: wrap;
-    height: 100%;
     padding: 0 20px;
     justify-content: center;
     max-width: 80%;
@@ -526,7 +524,6 @@ h1 {
 }
   
   .pic {
-    height: 100%;
     max-width: 25%;
     margin-bottom: 10px;
     margin: 0 10px;
@@ -535,7 +532,6 @@ h1 {
   }
   
   .pic img {
-    height: 100%;
     margin-top: 10px;
     background-color: black;
     width: 100%;
@@ -560,7 +556,7 @@ h1 {
   /* Responsive layout - makes a two column-layout instead of four columns */
   @media screen and (max-width: 800px) {
     .pic {
-      flex: 50%;
+      flex: 40%;
       max-width: 50%;
     }
   }
@@ -601,7 +597,8 @@ h1 {
     position: absolute;
     top: 0;
     right: 0;
-    margin-right: 30px;
+    margin-right: 25px;
+    margin-top: -70px;
     transition: all 200ms;
     font-size: 10rem;
     font-weight: bold;
@@ -616,7 +613,6 @@ h1 {
 
   .picOne {
     display: flex;
-
     max-height: 95vh;
     max-width: 80%;
     margin: auto;
@@ -626,20 +622,14 @@ h1 {
 
 
 
-      /* Responsive layout - makes form logo fit better to scale */
-      @media screen and (max-width: 1400px) {
-        #popup-close {
-          font-size: 7rem;
-          margin-right: 16px;
-        }
-      }
-    
+
     
       /* Responsive layout - makes form logo fit better to scale */
       @media screen and (max-width: 800px) {
         #popup-close {
-          font-size: 5rem;
-          margin-right: 10px;
+          font-size: 5.5rem;
+          margin-right: 20px;
+          margin-top: -35px;
         }
       }
     
@@ -647,6 +637,8 @@ h1 {
       @media screen and (max-width: 600px) {
         #popup-close {
           font-size: 3rem;
+          margin-top: -17px;
+          margin-right: 15px;
         }
       }
 
@@ -679,7 +671,6 @@ h1 {
 
   .formTitle {
     font-size: 450%;
-    height: 100%;
     word-spacing: 4px;
     text-align: center;
     padding-bottom: 8%;
@@ -700,7 +691,6 @@ h1 {
     background-size: cover;
     background-position: center;
     background-attachment: initial;
-    height: 100%;
     color: rgb(245, 57, 88);
     padding: 25px;
     margin: 150px 0;
