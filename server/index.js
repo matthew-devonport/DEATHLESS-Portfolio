@@ -14,9 +14,6 @@ server.post("/api/v1/sendMail", (req, res) => {
   sendEmail(req.body.name, req.body.email, req.body.message, req.body.newsletter);
 });
 
-server.get("/", (req, res) => {
-  res.send("hello")
-})
 
 const port = process.env.PORT || 3000;
 
