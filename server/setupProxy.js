@@ -2,10 +2,8 @@ const proxy = require('http-proxy-middleware')
 
 module.exports = function(app) {
 
-    app.user(proxy("/api", { target: "https://deathless-studio.netlify.com/#/"}))
+    app.user(proxy("/api", { target: "https://localhost:3000"}))
 }
 
-app.use(function (req, res, next) {
-    res.status(404).send("Sorry can't find that!")
-  })
+
 
