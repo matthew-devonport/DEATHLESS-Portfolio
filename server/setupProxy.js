@@ -2,6 +2,6 @@ const proxy = require('http-proxy-middleware')
 
 module.exports = function(app) {
 
-    app.user(proxy("/api", { target: "http://deathless-studio.netlify.com/"}))
+    app.user(proxy("/api", { target: "https://deathless-studio.netlify.com/#/"}))
 }
 
