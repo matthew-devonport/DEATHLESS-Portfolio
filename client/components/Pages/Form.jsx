@@ -60,7 +60,7 @@ class Form extends React.Component {
         return (
             <React.Fragment>
  <div className="formContainer" id="formScale">
-        <form onSubmit={this.handleSubmit} >
+        <form onSubmit={this.handleSubmit} data-netlify-recaptcha="true">
      <div className='contact'>
             <h2 className="formTitles">YOUR FULL NAME</h2>
             <input
@@ -90,6 +90,7 @@ class Form extends React.Component {
               onChange={this.handleInputChange}/>
          <h2 id="newsletter">SIGN UP FOR OUR NEWSLETTER!</h2>
          </div>
+         <div data-netlify-recaptcha="true"></div>
          <div id='submit-btn' > 
           <input type='submit' value='submit' />
           </div>
