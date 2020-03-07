@@ -60,7 +60,7 @@ class Form extends React.Component {
         return (
             <React.Fragment>
  <div className="formContainer" id="formScale">
-        <form onSubmit={this.handleSubmit} >
+        <form onSubmit={this.handleSubmit} method="post">
      <div className='contact'>
             <h2 className="formTitles">YOUR FULL NAME</h2>
             <input
