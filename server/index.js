@@ -14,7 +14,7 @@ server.post("/api/v1/sendMail", (req, res) => {
   sendEmail(req.body.name, req.body.email, req.body.message, req.body.newsletter);
 });
 
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 server.listen(port, () => {
   // eslint-disable-next-line no-console
