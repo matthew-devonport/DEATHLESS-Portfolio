@@ -11,7 +11,7 @@ class Form extends React.Component {
          email: '',
          message: ''};
        this.handleChange = this.handleChange.bind(this);
-       this.handleSubmit = this.handleSubmit.bind(this);
+      //  this.handleSubmit = this.handleSubmit.bind(this);
        this.handleInputChange = this.handleInputChange.bind(this);
    
    }
@@ -37,22 +37,22 @@ class Form extends React.Component {
 
   }
 
-   handleSubmit(event) {
-    event.preventDefault();
-    const data = {
-      name: this.state.name,
-      email: this.state.email,
-      message: this.state.message,
-      newsletter: this.state.newsletter
-    };
+  //  handleSubmit(event) {
+  //   event.preventDefault();
+  //   const data = {
+  //     name: this.state.name,
+  //     email: this.state.email,
+  //     message: this.state.message,
+  //     newsletter: this.state.newsletter
+  //   };
 
-    Axios.post("api/v1/sendMail", data)
+  //   Axios.post("api/v1/sendMail", data)
 
-    alert( "Thank you! We will be in touch shortly!")
+  //   alert( "Thank you! We will be in touch shortly!")
 
     
 
-   }
+  //  }
 
 
 
@@ -60,7 +60,7 @@ class Form extends React.Component {
         return (
             <React.Fragment>
  <div className="formContainer" id="formScale">
-        <form onSubmit={this.handleSubmit} method="post">
+     <form name="contact" method="POST" data-netlify="true">
      <div className='contact'>
             <h2 className="formTitles">YOUR FULL NAME</h2>
             <input
