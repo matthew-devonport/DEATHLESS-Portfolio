@@ -62,38 +62,45 @@ class Form extends React.Component {
  <div className="formContainer" id="formScale">
      <form name="contact" method="POST" data-netlify="true">
      <div className='contact'>
-            <h2 className="formTitles">YOUR FULL NAME</h2>
+            <label><h2 className="formTitles">YOUR FULL NAME</h2>
             <input
             type="text"
               name='name'
               value={this.state.name}
               onChange={this.handleChange}
             required/> 
+            </label>
+            <label>
             <h2 className="formTitles">EMAIL ADDRESS</h2>
             <input
             type="email"
               name='email'
               value={this.state.email}
               onChange={this.handleChange}
-            required/> 
-        <div id='messageForm'>           
+            required/>
+            </label> 
+        <div id='messageForm'>
+          <label>         
             <h2 className="formTitles">MESSAGE</h2>
             <textarea 
               name='message'
               value={this.state.message}
               onChange={this.handleChange}
             required/>
+            </label>  
             </div>
-            <div id="newsletterLayout"> 
+            <div id="newsletterLayout">
+              <label>
             <input id="checkbox"
               name='newsletter'
               type='checkbox'
               checked={this.state.newsletter}
-              onChange={this.handleInputChange}/>
+              onChange={this.handleInputChange}/>   
          <h2 id="newsletter">SIGN UP FOR OUR NEWSLETTER!</h2>
+         </label> 
          </div>
          <div id='submit-btn' > 
-          <button type='submit' value='submit' />
+          <button type='submit'>SUBMIT</button>/>
           </div>
           </div>
         </form>
