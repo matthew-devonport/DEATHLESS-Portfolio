@@ -8,7 +8,7 @@ class Shop extends React.Component {
         return (
             <React.Fragment>
             <div className="shopPic">
-            <img src='IMAGES/Shop-Pics-Logo.jpg' className='shopPic'></img>
+            <img src='Images/Shop-Pics-Logo.jpg' className='shopPic'></img>
             </div>
             </React.Fragment>
         )

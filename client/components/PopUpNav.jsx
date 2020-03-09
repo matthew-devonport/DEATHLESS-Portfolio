@@ -9,7 +9,7 @@ class PopUpNav extends React.Component {
         <a id="navPopup-close" onClick={togglePopup}>≡­­­</a>
           <div id="navPopup-content">
             {content}
-            <img id="navPic" src="/IMAGES/Nav-Pic.png"></img>
+            <img id="navPic" src="/Images/Nav-Pic.png"></img>
           </div>
         </div>
       </React.Fragment>

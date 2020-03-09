@@ -8,7 +8,7 @@ class PortfolioPagesHeader extends React.Component {
         return (
             <React.Fragment>
           <div className="header pagesHeader">
-          <img src="IMAGES/Deathless-Studio-Portfolio-Logo.png" className="centerImg" id="portLogo"></img>            
+          <img src="Images/Deathless-Studio-Portfolio-Logo.png" className="centerImg" id="portLogo"></img>            
           </div>
             </React.Fragment>
         )

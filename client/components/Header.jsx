@@ -8,7 +8,7 @@ class Header extends React.Component {
         return (
             <React.Fragment>
           <div className='background headerPic'>
-          <img src="IMAGES/Deathless-Studio-Logo.png" className="centerImg"></img>   
+          <img src="Images/Deathless-Studio-Logo.png" className="centerImg"></img>   
               </div>   
             </React.Fragment>
         )
