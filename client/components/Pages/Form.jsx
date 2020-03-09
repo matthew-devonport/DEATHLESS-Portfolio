@@ -11,7 +11,7 @@ class Form extends React.Component {
          email: '',
          message: ''};
        this.handleChange = this.handleChange.bind(this);
-      //  this.handleSubmit = this.handleSubmit.bind(this);
+       this.handleSubmit = this.handleSubmit.bind(this);
        this.handleInputChange = this.handleInputChange.bind(this);
    
    }
@@ -37,22 +37,22 @@ class Form extends React.Component {
 
   }
 
-  //  handleSubmit(event) {
-  //   event.preventDefault();
-  //   const data = {
-  //     name: this.state.name,
-  //     email: this.state.email,
-  //     message: this.state.message,
-  //     newsletter: this.state.newsletter
-  //   };
+   handleSubmit(event) {
+    event.preventDefault();
+    const data = {
+      name: this.state.name,
+      email: this.state.email,
+      message: this.state.message,
+      newsletter: this.state.newsletter
+    };
 
-  //   Axios.post("api/v1/sendMail", data)
+    Axios.post("api/v1/sendMail", data)
 
-  //   alert( "Thank you! We will be in touch shortly!")
+    alert( "Thank you! We will be in touch shortly!")
 
     
 
-  //  }
+   }
 
 
 
@@ -60,47 +60,38 @@ class Form extends React.Component {
         return (
             <React.Fragment>
  <div className="formContainer" id="formScale">
-     <form name="contact" method="POST" data-netlify="true">
+        <form onSubmit={this.handleSubmit} method="post">
      <div className='contact'>
-            <label><h2 className="formTitles">YOUR FULL NAME</h2>
+            <h2 className="formTitles">YOUR FULL NAME</h2>
             <input
-            type="text"
               name='name'
               value={this.state.name}
               onChange={this.handleChange}
             required/> 
-            </label>
-            <label>
             <h2 className="formTitles">EMAIL ADDRESS</h2>
             <input
-            type="email"
               name='email'
               value={this.state.email}
               onChange={this.handleChange}
-            required/>
-            </label> 
-        <div id='messageForm'>
-          <label>         
+            required/> 
+        <div id='messageForm'>           
             <h2 className="formTitles">MESSAGE</h2>
             <textarea 
               name='message'
               value={this.state.message}
               onChange={this.handleChange}
             required/>
-            </label>  
             </div>
-            <div id="newsletterLayout">
-              <label>
+            <div id="newsletterLayout"> 
             <input id="checkbox"
               name='newsletter'
               type='checkbox'
               checked={this.state.newsletter}
-              onChange={this.handleInputChange}/>   
+              onChange={this.handleInputChange}/>
          <h2 id="newsletter">SIGN UP FOR OUR NEWSLETTER!</h2>
-         </label> 
          </div>
          <div id='submit-btn' > 
-          <button type='submit'>SUBMIT</button>/>
+          <input type='submit' value='submit' />
           </div>
           </div>
         </form>
