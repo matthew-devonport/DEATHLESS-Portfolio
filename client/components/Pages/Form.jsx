@@ -64,12 +64,14 @@ class Form extends React.Component {
      <div className='contact'>
             <h2 className="formTitles">YOUR FULL NAME</h2>
             <input
+            type="text"
               name='name'
               value={this.state.name}
               onChange={this.handleChange}
             required/> 
             <h2 className="formTitles">EMAIL ADDRESS</h2>
             <input
+            type="email"
               name='email'
               value={this.state.email}
               onChange={this.handleChange}
@@ -91,7 +93,7 @@ class Form extends React.Component {
          <h2 id="newsletter">SIGN UP FOR OUR NEWSLETTER!</h2>
          </div>
          <div id='submit-btn' > 
-          <input type='submit' value='submit' />
+          <button type='submit' value='submit' />
           </div>
           </div>
         </form>
