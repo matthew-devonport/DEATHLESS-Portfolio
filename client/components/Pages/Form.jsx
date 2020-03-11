@@ -107,10 +107,10 @@ if (response) {
          <h2 id="newsletter">SIGN UP FOR OUR NEWSLETTER!</h2>
          </div>
          <Recaptcha
-    sitekey="6LckXOAUAAAAAALGVz-W8f8CB218jC7ps8P5JcNq"
+    sitekey="6LfzXeAUAAAAAEcAIkV5wLsgOFzNdb_BwqpBXW5n"
     render="explicit"
     verifyCallback={this.verifyCallback}
-    onloadCallback={this.recaptchaLoaded}
+    recaptchaLoaded={this.recaptchaLoaded}
   />
          <div id='submit-btn' > 
           <input type='submit' value='submit' />
