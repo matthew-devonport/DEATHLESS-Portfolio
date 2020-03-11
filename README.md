@@ -1,4 +1,4 @@
-Portfolio for a client of mine.
+Portfolio for a client/friend of mine to help add to my own portfolio.
 
 You can see the site live at it's current state (unfinished) at:
 https://deathless-studio.herokuapp.com/#/
