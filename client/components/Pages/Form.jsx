@@ -104,6 +104,7 @@ if (response) {
               onChange={this.handleInputChange}/>
          <h2 id="newsletter">SIGN UP FOR OUR NEWSLETTER!</h2>
          </div>
+        
          <Recaptcha
     sitekey="6LfzXeAUAAAAAEcAIkV5wLsgOFzNdb_BwqpBXW5n"
     render="explicit"
