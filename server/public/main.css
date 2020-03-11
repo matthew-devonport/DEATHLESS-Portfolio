@@ -952,17 +952,27 @@ h1 {
   }
 
 #parryOne {
-  height: 30vh;
+  height: 50vh;
   width: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 10px 10px 5px black;
 }
 
 
-
-
-
+.aboutText {
+  text-align: center;
+  color: rgb(245, 57, 88);
+  margin-top: 50px;
+  font-size: 2.5rem;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 100px;
+  background-color: rgba(0, 0, 0, 0.74);
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
 
   /* ---- Navs ----- */
 
