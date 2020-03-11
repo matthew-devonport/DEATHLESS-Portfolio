@@ -864,7 +864,7 @@ h1 {
     flex-direction: row;
   }
 
- 
+
 
   #submit-btn input[type="submit"] {
     font-family: "Permanent Marker";
@@ -876,6 +876,7 @@ h1 {
     color: black;
     margin: 0 0 5px;
     padding: 10px;
+    margin-top: 20px;
     font-size: 50px;
   }
   
