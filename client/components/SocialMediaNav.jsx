@@ -9,7 +9,7 @@ class SocialMediaNav extends React.Component {
         return (
             <React.Fragment>
 <a href="https://www.instagram.com/deathless_or_die/" target="_blank">
-<img src="IMAGES/Instagram-Icon.png" id="instaIcon"></img>
+<img src="Images/Instagram-Icon.png" id="instaIcon"></img>
 </a>
             </React.Fragment>
         )

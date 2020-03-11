@@ -8,7 +8,7 @@ class PagesHeader extends React.Component {
         return (
             <React.Fragment>
           <div className="header pagesHeader">
-          <img src="IMAGES/Deathless-Studio-Commission-Logo.png" className="centerImg" id="comLogo"></img>            
+          <img src="Images/Deathless-Studio-Commission-Logo.png" className="centerImg" id="comLogo"></img>            
           </div>
             </React.Fragment>
         )
