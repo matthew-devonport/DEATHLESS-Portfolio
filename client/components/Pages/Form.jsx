@@ -10,11 +10,13 @@ class Form extends React.Component {
        this.state = {
          name: '',
          email: '',
-         message: ''};
+         message: '',
+        isVerified: false};
        this.handleChange = this.handleChange.bind(this);
        this.handleSubmit = this.handleSubmit.bind(this);
        this.handleInputChange = this.handleInputChange.bind(this);
-   
+       this.recaptchaLoaded = this.recaptchaLoaded.bind(this);
+       this.verifyCallback = this.verifyCallback.bind(this);
    }
 
    handleChange(event) {
@@ -38,6 +40,10 @@ class Form extends React.Component {
 
   }
 
+  recaptchaLoaded () {
+    console.log('capcha successfully loaded')
+  }
+
    handleSubmit(event) {
     event.preventDefault();
     const data = {
@@ -48,14 +54,23 @@ class Form extends React.Component {
     };
 
     Axios.post("api/v1/sendMail", data)
-
-    alert( "Thank you! We will be in touch shortly!")
-
+if (this.state.isVerified) {
+    alert("Thank you! We will be in touch shortly!")
+} else {
+    alert("Please verify that you are a human!")
+}
     
 
    }
 
-
+verifyCallback(response) {
+if (response) {
+  this.setState({
+    isVerified: true
+  })
+  
+}
+}
 
     render() {
         return (
@@ -91,6 +106,12 @@ class Form extends React.Component {
               onChange={this.handleInputChange}/>
          <h2 id="newsletter">SIGN UP FOR OUR NEWSLETTER!</h2>
          </div>
+         <Recaptcha
+    sitekey="6LckXOAUAAAAAALGVz-W8f8CB218jC7ps8P5JcNq"
+    render="explicit"
+    verifyCallback={this.verifyCallback}
+    onloadCallback={this.recaptchaLoaded}
+  />
          <div id='submit-btn' > 
           <input type='submit' value='submit' />
           </div>
