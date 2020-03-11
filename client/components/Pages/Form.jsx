@@ -58,9 +58,7 @@ if (this.state.isVerified) {
     alert("Thank you! We will be in touch shortly!")
 } else {
     alert("Please verify that you are a human!")
-}
-    
-
+}   
    }
 
 verifyCallback(response) {
