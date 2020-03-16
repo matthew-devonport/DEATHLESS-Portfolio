@@ -953,7 +953,6 @@ h1 {
 
 #parryOne {
   height: 50vh;
-  width: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -963,17 +962,76 @@ h1 {
 
 .aboutText {
   text-align: center;
-  color: rgb(245, 57, 88);
+  color: rgb(224, 47, 224);
   margin-top: 50px;
   font-size: 2.5rem;
   margin-left: 15px;
   margin-right: 15px;
   margin-bottom: 100px;
-  background-color: rgba(0, 0, 0, 0.74);
+  background-color: rgba(0, 0, 0, 0.808);
   padding-top: 10px;
   padding-bottom: 20px;
 }
 
+
+      /* Responsive layout - makes about .aboutText txt fit better to scale */
+      @media screen and (max-width: 1400px) {
+        .aboutText {
+          font-size: 1.5em;
+        }
+        #parryOne {
+        height: 45vh;
+        }
+      }
+
+      /* Responsive layout - makes about .aboutText txt fit better to scale */
+      @media screen and (max-width: 1200px) {
+        .aboutText {
+          font-size: 2.4rem;
+        }
+        #parryOne {
+          height: 35vh;
+          }
+      }     
+
+      /* Responsive layout - makes about .aboutText txt fit better to scale */
+      @media screen and (max-width: 900px) {
+        .aboutText {
+          font-size: 1.8rem;
+        }
+        #parryOne {
+          height: 30vh;
+          }
+      }          
+
+
+    /* Responsive layout - makes about .aboutText txt fit better to scale */
+    @media screen and (max-width: 766px) {
+      .aboutText {
+        font-size: 1.4rem;
+      }
+      
+    }
+  
+     /* Responsive layout - makes about .aboutText txt fit better to scale */
+     @media screen and (max-width: 600px) {
+       .aboutText {
+        font-size: 1.1rem;
+      }
+      #parryOne {
+        height: 25vh;
+        }
+    }
+
+     /* Responsive layout - makes about .aboutText txt fit better to scale */
+     @media screen and (max-width: 400px) {
+      .aboutText {
+       font-size: 1.1rem;
+     }
+     #parryOne {
+       height: 23vh;
+       }
+   }    
   /* ---- Navs ----- */
 
 .pageNav {
