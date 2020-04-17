@@ -1067,6 +1067,7 @@ h1 {
     }
   }
 
+
 a:link,
 a:visited {
     color: whitesmoke;
@@ -1112,7 +1113,12 @@ a:visited {
       display: none;
      }
   }
-
+ /* Responsive layout - makes about nav text fit better to scale */
+ @media screen and (max-width: 320px) {
+  .comNavLinks {
+   font-size: 2.4rem;
+   }
+  }
 
 .gradient:hover,
 .gradient:active {
