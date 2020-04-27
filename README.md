@@ -4,6 +4,7 @@ You can see the site live at it's current state (unfinished) at:
 https://deathless-studio.herokuapp.com/#/
 
 As of 11/03/2020, the site is very close to completion.
+
 As of 27/04/2020, the site is bascially complete. Talking to the client (who is a friend) he keeps second guessing himself on color scheme
 and other minor things. I have asked to go remote with him so we can go through it quicker. He is procrastinating with this each time I ask him. It's a paidless project so I am considering the site done and active until I hear more from him.
 
