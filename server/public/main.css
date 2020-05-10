@@ -119,7 +119,7 @@ h1 {
 
 
 .headerPic {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.8)), url(./Images/Header-Pic.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 0.9)), url(./Images/Header-Pic.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -623,12 +623,12 @@ h1 {
     top: 0;
     right: 0;
     margin-right: 25px;
-    margin-top: -70px;
+    margin-top: -50px;
     transition: all 200ms;
     font-size: 10rem;
     font-weight: bold;
     text-decoration: none;
-      color: yellow;
+      color: rgb(195, 57, 245);;
       cursor: pointer;
   }
   
@@ -654,7 +654,7 @@ h1 {
         #popup-close {
           font-size: 5.5rem;
           margin-right: 20px;
-          margin-top: -35px;
+          margin-top: -20px;
         }
       }
     
@@ -662,8 +662,8 @@ h1 {
       @media screen and (max-width: 600px) {
         #popup-close {
           font-size: 3rem;
-          margin-top: -17px;
-          margin-right: 15px;
+          margin-top: -10px;
+          margin-right: 3px;
         }
       }
 
@@ -990,10 +990,10 @@ h1 {
 .aboutText {
   text-align: center;
   color: black;
+  max-width: 70%;
   margin-top: 50px;
-  font-size: 2.5rem;
-  margin-left: 15px;
-  margin-right: 15px;
+  font-size: 1.5rem;
+  margin: 30px auto;
   margin-bottom: 100px;
   background-color: rgba(245, 245, 245, 0.89);
   padding-top: 10px;
@@ -1004,7 +1004,7 @@ h1 {
       /* Responsive layout - makes about .aboutText txt fit better to scale */
       @media screen and (max-width: 1400px) {
         .aboutText {
-          font-size: 1.5em;
+          font-size: 1.5rem;
         }
         #parryOne {
         height: 45vh;
@@ -1014,7 +1014,8 @@ h1 {
       /* Responsive layout - makes about .aboutText txt fit better to scale */
       @media screen and (max-width: 1200px) {
         .aboutText {
-          font-size: 2.4rem;
+          font-size: 1.5rem;
+          max-width: 90%;
         }
         #parryOne {
           height: 35vh;
@@ -1024,7 +1025,8 @@ h1 {
       /* Responsive layout - makes about .aboutText txt fit better to scale */
       @media screen and (max-width: 900px) {
         .aboutText {
-          font-size: 1.8rem;
+          font-size: 1.2rem;
+          max-width: 80%;
         }
         #parryOne {
           height: 30vh;
@@ -1035,15 +1037,19 @@ h1 {
     /* Responsive layout - makes about .aboutText txt fit better to scale */
     @media screen and (max-width: 766px) {
       .aboutText {
-        font-size: 1.4rem;
+        max-width: 95%;
+        font-size: 1rem;
       }
-      
+      #parryOne {
+        height: 35vh;
+        }      
     }
   
      /* Responsive layout - makes about .aboutText txt fit better to scale */
      @media screen and (max-width: 600px) {
        .aboutText {
-        font-size: 1.1rem;
+        max-width: 96%;
+        font-size: 0.9rem;
       }
       #parryOne {
         height: 25vh;
@@ -1053,7 +1059,8 @@ h1 {
      /* Responsive layout - makes about .aboutText txt fit better to scale */
      @media screen and (max-width: 400px) {
       .aboutText {
-       font-size: 1.1rem;
+      max-width: 95%;
+       font-size: 0.8rem;
      }
      #parryOne {
        height: 23vh;
@@ -1105,14 +1112,14 @@ a:visited {
 
 
 .comNavLinks {
-  font-size: 5rem;
+  font-size: 4rem;
   padding-top: 150px;
 }
 
   /* Responsive layout - makes about nav text fit better to scale */
   @media screen and (max-width: 1400px) {
     .comNavLinks {
-      font-size: 5rem;
+      font-size: 3rem;
     }
     #navPic {
      display: none;
@@ -1121,29 +1128,29 @@ a:visited {
   }
 
 
-  /* Responsive layout - makes about nav text fit better to scale */
+  /* Responsive layout - makes com nav text fit better to scale */
   @media screen and (max-width: 800px) {
     .comNavLinks {
-      font-size: 4rem;
+      font-size: 2.5rem;
     }  
     #navPic {      
       display: none;
      }
   }
 
-   /* Responsive layout - makes about nav text fit better to scale */
+   /* Responsive layout - makes com nav text fit better to scale */
    @media screen and (max-width: 600px) {
    .comNavLinks {
-    font-size: 3rem;
+    font-size: 2rem;
     }
     #navPic {
       display: none;
      }
   }
- /* Responsive layout - makes about nav text fit better to scale */
+ /* Responsive layout - makes com nav text fit better to scale */
  @media screen and (max-width: 320px) {
   .comNavLinks {
-   font-size: 2.4rem;
+   font-size: 1.5rem;
    }
   }
 
