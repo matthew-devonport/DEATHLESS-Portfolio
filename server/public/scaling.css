@@ -49,7 +49,7 @@
         width: 479px;
         max-width: 80%; }
         .formContainer h2 {         
-            font-size: 40px; }
+            font-size: 30px; }
      #formScale {         
          width: 479px;
          max-width: 80%; }
@@ -64,6 +64,9 @@
     .formContainer {         
         width: 479px;
         max-width: 100%; }
+        .formContainer h2 {
+            font-size: 25px;
+        }
     .centerImg { 
         width: 479px;
         max-width: 100%; }
