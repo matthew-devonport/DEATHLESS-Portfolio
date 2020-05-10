@@ -42,11 +42,32 @@ h1 {
       margin-top: 5px;
     }
   } */
+ /* Responsive layout - makes h1 titles smaller*/
+ @media screen and (max-width: 1400px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
 
-   /* Responsive layout - makes nav icon smaller*/
+   /* Responsive layout - makes h1 titles smaller*/
+   @media screen and (max-width: 1000px) {
+    h1 {
+      font-size: 2.5rem;
+    }
+  }
+
+
+     /* Responsive layout - makes h1 titles smaller*/
+     @media screen and (max-width: 800px) {
+      h1 {
+        font-size: 2rem;
+      }
+    }
+
+   /* Responsive layout - makes h1 titles smaller*/
   @media screen and (max-width: 600px) {
     h1 {
-      font-size: 1.6rem;
+      font-size: 1.2rem;
     }
   }
 
@@ -89,8 +110,9 @@ h1 {
    /* Responsive layout - makes home logo fit better to scale */
   @media screen and (max-width: 600px) {
     #homeLogo {
-      height: 400px;
+      height: 350px;
       width: auto;
+      margin-bottom: -50px;
     }
   }
 
