@@ -6,9 +6,9 @@
 
 html,
 body {
-    color: #c79d33;
+    color: rgb(195, 57, 245);
     background-color: black;
-    font-family: 'Anton', 'Arial', 'sans-serif';
+    font-family: 'Montserrat', 'Arial', 'sans-serif';
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
@@ -23,9 +23,10 @@ ul {
  
 h1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(./Images/Banner-Logo.jpg);
+    background-color: whi;
     background-size: cover;
     background-position: center;
-    color: rgb(221, 211, 62);
+    color: whitesmoke;
     font-size: 3.5rem;
     font-weight: 100;
     word-spacing: 4px;
@@ -59,7 +60,7 @@ h1 {
 }
 
 #orangeText {
-  color: #c79d33;
+  color: rgb(195, 57, 245);
 }
 
 /* ------ Header ------ */
@@ -96,7 +97,7 @@ h1 {
 
 
 .headerPic {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(./Images/Header-Pic.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.8)), url(./Images/Header-Pic.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -672,17 +673,17 @@ h1 {
     }
 
   .formTitle {
-    font-size: 450%;
+    font-size: 400%;
     word-spacing: 4px;
     text-align: center;
     padding-bottom: 8%;
-    color: yellow
+    color: black
   }
 
        /* Responsive layout - makes form logo fit better to scale */
        @media screen and (max-width: 600px) {
         .formTitle {
-     font-size: 300%;
+     font-size: 250%;
      padding-left: 5%;
      padding-right: 5%;
         }
@@ -693,7 +694,7 @@ h1 {
     background-size: cover;
     background-position: center;
     background-attachment: initial;
-    color: rgb(245, 57, 88);
+    color:  rgb(195, 57, 245);
     padding: 25px;
     margin: 150px 0;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
@@ -706,7 +707,7 @@ h1 {
   }
 
   .formTitles {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 200;
     margin-bottom: 10px;
     margin-top: 10px;
@@ -738,7 +739,7 @@ h1 {
    /* Responsive layout - makes about form title text fit better to scale */
    @media screen and (max-width: 600px) {
    .formTitles {
-    font-size: 1rem;
+    font-size: 0.5rem;
      }
      #newsletter {
       font-size: 1rem;
@@ -792,23 +793,25 @@ h1 {
     }
 
   #newsletter {
-    margin-top: 23px;
+    margin-top: 30px;
     margin-left: 20px;
-    font-size: 2.4rem;
+    font-size: 1.7rem;
     font-weight: 200;
   }
 
     /* Responsive layout - makes about nav text fit better to scale */
     @media screen and (max-width: 1800px) {
     #newsletter {
-      font-size: 2rem;
+      margin-top: 33px;
+      font-size: 1.45rem;
     }
     }
 
       /* Responsive layout - makes about newsletter txt fit better to scale */
       @media screen and (max-width: 1550px) {
         #newsletter {
-          font-size: 1.8rem;
+          margin-top: 33px;
+          font-size: 1.3rem;
         }
       }
 
@@ -816,45 +819,47 @@ h1 {
        @media screen and (max-width: 1420px) {
         #newsletter {
           margin-top: 33px;
-          font-size: 1.6rem;
+          font-size: 1.1rem;
         }
       }
 
       /* Responsive layout - makes about newsletter txt fit better to scale */
       @media screen and (max-width: 1400px) {
         #newsletter {
-          font-size: 1.5em;
+          margin-top: 38px;
+          font-size: 1.1rem;
         }
       }
 
       /* Responsive layout - makes about newsletter txt fit better to scale */
       @media screen and (max-width: 1200px) {
         #newsletter {
-          font-size: 2.4rem;
+          margin-top: 28px;
+          font-size: 1.8rem;
         }
       }     
 
       /* Responsive layout - makes about newsletter txt fit better to scale */
       @media screen and (max-width: 900px) {
         #newsletter {
-          font-size: 1.8rem;
+          font-size: 1.5rem;
         }
       }          
 
 
     /* Responsive layout - makes about newsletter txt fit better to scale */
-    @media screen and (max-width: 766px) {
+    @media screen and (max-width: 767px) {
       #newsletter {
-        margin-top: 33px;
-        font-size: 1.4rem;
+        margin-top: 37px;
+        font-size: 1.1rem;
       }
     }
   
      /* Responsive layout - makes about newsletter txt fit better to scale */
      @media screen and (max-width: 600px) {
        #newsletter {
-        font-size: 1.1rem;
-        margin-top: 37px;
+        font-size: 0.8rem;
+        margin-top: 40px;
       }
     }
 
@@ -962,13 +967,13 @@ h1 {
 
 .aboutText {
   text-align: center;
-  color: rgb(224, 47, 224);
+  color: black;
   margin-top: 50px;
   font-size: 2.5rem;
   margin-left: 15px;
   margin-right: 15px;
   margin-bottom: 100px;
-  background-color: rgba(0, 0, 0, 0.808);
+  background-color: rgba(245, 245, 245, 0.89);
   padding-top: 10px;
   padding-bottom: 20px;
 }
@@ -1035,7 +1040,7 @@ h1 {
   /* ---- Navs ----- */
 
 .pageNav {
-  color: yellow;
+  color: rgb(195, 57, 245);
   position: fixed;
   font-size: 5rem;
   float: left;
@@ -1149,7 +1154,7 @@ a:visited {
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(0, 0, 0, 0.9);
+    background: rgba(0, 0, 0, 0.945);
     transition: opacity 500ms;
     z-index: 100;
   }
