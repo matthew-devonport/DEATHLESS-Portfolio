@@ -106,13 +106,13 @@ if (response) {
          </div>
         
          <Recaptcha
-    sitekey="6LcCnPYUAAAAADHmLldrLAYEI4WJDa5tnJPK8Xqh"
+    sitekey="6LcCnPYUAAAAAAbQdsgNNNcl8aiZcL9Bvk4Qvts1"
     render="explicit"
     verifyCallback={this.verifyCallback}
     recaptchaLoaded={this.recaptchaLoaded}
   />
          <div id='submit-btn' > 
-          <input type='submit' value='submit' />
+          <input type='submit' value='SUBMIT' />
           </div>
           </div>
         </form>
