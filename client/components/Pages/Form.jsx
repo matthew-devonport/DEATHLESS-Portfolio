@@ -106,7 +106,7 @@ if (response) {
          </div>
         
          <Recaptcha
-    sitekey="6LfzXeAUAAAAAEcAIkV5wLsgOFzNdb_BwqpBXW5n"
+    sitekey="6LcCnPYUAAAAADHmLldrLAYEI4WJDa5tnJPK8Xqh"
     render="explicit"
     verifyCallback={this.verifyCallback}
     recaptchaLoaded={this.recaptchaLoaded}
