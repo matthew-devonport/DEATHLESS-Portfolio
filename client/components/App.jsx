@@ -8,6 +8,7 @@ import CommissionWorkPage from './Pages/CommissionWorkPage';
 import NavFormPage from './Pages/NavFormPage';
 import AboutMe from './AboutMe'
 import ScrollToTop from './ScrollToTop';
+import Apparel from './Apparel';
 
 class App extends React.Component {
  
@@ -22,6 +23,7 @@ class App extends React.Component {
         <Route exact path='/commission' component={CommissionWorkPage} />
         <Route exact path='/contact' component={NavFormPage} />
         <Route exact path='/about' component={AboutMe} />
+        <Route exact path='/apparel' component={Apparel} />
         </div>
       </Router>
     )
