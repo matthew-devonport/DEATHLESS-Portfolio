@@ -8,6 +8,7 @@ import Shop from './Shop'
 import Portfolio from './Portfolio';
 import HomeNav from './HomeNav'
 import SocialMediaNav from './SocialMediaNav';
+import Apparel from './Apparel'
 
 
 class Home extends React.Component {
@@ -30,6 +31,11 @@ class Home extends React.Component {
             <CommissionWork />
           </Link>
           <div className='bannerSpace'></div>
+          <h1>APPAREL</h1>
+      <Link to='/apparel'>
+            <Apparel />
+          </Link>
+          <div className='bannerSpace'></div>    
       <h1>DEATHLESS STORE</h1>
       <a href="https://teespring.com/stores/death-inc" target="_blank">
       <Shop />
