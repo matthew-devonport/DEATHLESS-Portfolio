@@ -61,7 +61,7 @@ class ApparelPage extends React.Component {
         <div className="headerPic">
         <PortPageNav />
         <SocialMediaNav />
-          <PortfolioPagesHeader />
+        <img src="Images/Deathless-Studio-Apparel-Logo.png" className="centerImg" id="apparelLogo"></img>
           <div className="portfolioPics">
             {images.map((image, index) => {
               return (

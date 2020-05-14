@@ -502,6 +502,16 @@ h1 {
       margin-right: 8px;
     }
 
+   /* Responsive layout - makes footer better to scale */
+   @media screen and (max-width: 450px) {
+    .footer-nav li {
+      font-size: 0.40rem;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      margin-right: 8px;
+    }   
+  } 
+
   ul {
     padding-inline-end: 40px;
     }
@@ -1064,7 +1074,36 @@ h1 {
      #parryOne {
        height: 23vh;
        }
-   }    
+   }
+   
+   
+/* ---- APPAREL ------ */ 
+
+  /* Responsive layout - makes about logo fit better to scale */
+  @media screen and (max-width: 1400px) {
+    #apparelLogo {
+      height: 800px;
+      width: auto;
+    }
+  }
+
+
+  /* Responsive layout - makes about logo fit better to scale */
+  @media screen and (max-width: 800px) {
+    #apparelLogo {
+      height: 600px;
+      width: auto;
+    }
+  }
+
+   /* Responsive layout - makes about logo fit better to scale */
+  @media screen and (max-width: 600px) {
+    #apparelLogo{
+      height: 300px;
+      width: auto;
+    }
+  }
+
   /* ---- Navs ----- */
 
 .pageNav {
