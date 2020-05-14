@@ -3,13 +3,6 @@ Portfolio for a client/friend of mine to help add to my own portfolio.
 You can see the site live at it's current state (finished) at:
 https://deathless-studio.com/#/
 
-As of 11/03/2020, the site is very close to completion.
-
-As of 27/04/2020, the site is bascially complete. Talking to the client (who is a friend) he keeps second guessing himself on color scheme
-and other minor things. I have asked to go remote with him so we can go through it quicker. He is procrastinating with this each time I ask him. It's a paidless project so I am considering the site FINISHED and active until I hear more from him.
-
-As of 10/5/2020, I have got in contact with the client. He requested quite a few style changes. I have completed them. He has requested that I also create the shop for him on Shopify. Once that is done the site will be 100% complete.
-
 As of 14/5/2020, the customer requested another page for his apparel. I have completed this.
 He is requesting a couple of font size changes, we will go through these shortly. I have completed the structure and styling for his shopify site. Once he uploads products onto it, he will advertise the site going live. 
 It is now available at: https://deathless-studio.com
