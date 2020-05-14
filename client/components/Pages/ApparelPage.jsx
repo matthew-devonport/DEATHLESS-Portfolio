@@ -1,11 +1,9 @@
 import React from "react"
 
-
-import PortfolioPagesHeader from "./PortfolioPagesHeader"
 import Footer from "../Footer"
 import PopUpBox from "./PopUpBox"
-import PortPageNav from "../PortPageNav"
 import SocialMediaNav from '../SocialMediaNav'
+import ApparelNav from "../ApparelNav"
 
 const images = [
   { id: 1, thumbnail: "/Images/Apparel-Pics/1-1.jpg", fullSize: "/Images/Apparel-Pics/1-2.jpg" },
@@ -59,7 +57,7 @@ class ApparelPage extends React.Component {
     return (
       <React.Fragment>
         <div className="headerPic">
-        <PortPageNav />
+        <ApparelNav />
         <SocialMediaNav />
         <img src="Images/Deathless-Studio-Apparel-Logo.png" className="centerImg" id="apparelLogo"></img>
           <div className="portfolioPics">

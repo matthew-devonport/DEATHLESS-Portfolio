@@ -6,7 +6,7 @@ class Apparel extends React.Component {
     render() {
         return (
             <React.Fragment>
-              <div className="commissionPic">
+              <div className="apparelPic">
             <img src='Images/Apparel-Pics-Logo.jpg' className='commissionPic'></img>   
            
             </div>
