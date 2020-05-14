@@ -1,6 +1,6 @@
 Portfolio for a client/friend of mine to help add to my own portfolio.
 
-You can see the site live at it's current state (finished) at:
+You can see the site live at it's current state at:
 https://deathless-studio.com/#/
 
 As of 14/5/2020, the customer requested another page for his apparel. I have completed this.
