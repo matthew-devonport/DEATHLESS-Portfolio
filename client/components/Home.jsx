@@ -37,7 +37,7 @@ class Home extends React.Component {
           </Link>
           <div className='bannerSpace'></div>    
       <h1>DEATHLESS STORE</h1>
-      <a href="https://teespring.com/stores/death-inc" target="_blank">
+      <a href="https://deathless-studio.myshopify.com/" target="_blank">
       <Shop />
       </a>
       <div className='bannerSpace'></div>
