@@ -36,7 +36,7 @@ setPopup = (content) => {
 comNav = (
       <div className="comNavLinks">
       <ul>
-         <div className="gradient"><li><Link to='/Portfolio'>Portfolio</Link></li></div>
+         <div className="gradient"><li><Link to='/Portfolio'>Art &amp; Illustrations</Link></li></div>
          <div className="gradient"><li><Link to='/Commission'>Commission</Link></li></div>
          <div className="gradient"><li><Link to='/Apparel'>Apparel</Link></li></div>
          <div className="gradient"><li><a href="https://teespring.com/stores/death-inc" target="_blank">Shop</a></li></div>

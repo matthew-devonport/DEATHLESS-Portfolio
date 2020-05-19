@@ -21,7 +21,7 @@ class Home extends React.Component {
           <HomeNav />
           <SocialMediaNav />
           <img src="Images/Deathless-Studio-Logo.png" className="centerImg" id="homeLogo"></img>       
-      <h1>PORTFOLIO</h1>
+      <h1>ART &amp; ILLUSTRATIONS</h1>
           <Link to='/portfolio'>
             <Portfolio />
           </Link>   
