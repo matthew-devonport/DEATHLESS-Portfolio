@@ -35,6 +35,8 @@ const images = [
   { id: 24, thumbnail: "/Images/Commission-Work-Pics/24-1.jpg" ,fullSize: "/Images/Commission-Work-Pics/24-2.jpg" },
   { id: 25, thumbnail: "/Images/Commission-Work-Pics/25-1.jpg" ,fullSize: "/Images/Commission-Work-Pics/25-2.jpg" },
   { id: 26, thumbnail: "/Images/Commission-Work-Pics/26-1.jpg" ,fullSize: "/Images/Commission-Work-Pics/26-2.jpg" },
+  { id: 27, thumbnail: "/Images/Commission-Work-Pics/27-1.jpg" ,fullSize: "/Images/Commission-Work-Pics/27-2.jpg" },
+  { id: 28, thumbnail: "/Images/Commission-Work-Pics/28-1.jpg" ,fullSize: "/Images/Commission-Work-Pics/28-2.jpg" },
 ]
 
 class CommissionWorkPage extends React.Component {

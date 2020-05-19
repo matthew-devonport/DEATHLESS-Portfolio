@@ -27,7 +27,7 @@ h1 {
     background-size: cover;
     background-position: center;
     color: whitesmoke;
-    font-size: 3.5rem;
+    font-size: 2rem;
     font-weight: 100;
     word-spacing: 4px;
     letter-spacing: 1px;
@@ -170,12 +170,49 @@ h1 {
   /* Responsive layout - makes the insta icon smaller */
   @media screen and (max-width: 600px) {
     #instaIcon {
-      height: 30px;
-      width: 30px;
-      margin-right: 10px;
-      margin-top: 10px;
+      height: 25px;
+      width: 25px;
+      margin-right: 8px;
+      margin-top: 8px;
     }
   }
+
+  #fbIcon {
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin-top: 120px;
+    margin-right: 29px;
+    z-index: 5;
+    
+  }
+  
+  /* ------ RESPONSIVE fbIcon ------ /*
+  
+  
+    
+    /* Responsive layout - makes the fb icon smaller */
+    @media screen and (max-width: 800px) {
+      #fbIcon {
+        height: 38px;
+        width: 38px;
+        margin-right: 18px;
+        margin-top: 76px;
+      }
+    }
+  
+    
+    /* Responsive layout - makes the fb icon smaller */
+    @media screen and (max-width: 600px) {
+      #fbIcon {
+        height: 15px;
+        width: 15px;
+        margin-right: 12px;
+        margin-top: 38px;
+      }
+    } 
 
 .centerImg {
     display: block;
@@ -258,7 +295,7 @@ h1 {
 }
 
 .portfolioPic::before {
-    content: "Click to see more Portfolio Work";
+    content: "Click to see more art & Illustration work";
     background-color: black;
     color: white;
     font-size: 4rem;
@@ -320,7 +357,7 @@ h1 {
 }
 
 .commissionPic::before {
-    content: "Click to see more Commission Work";
+    content: "Click to see more commission work";
     background-color: black;
     color: white;
     font-size: 4rem;
@@ -765,7 +802,7 @@ h1 {
     }
 
   .formTitle {
-    font-size: 400%;
+    font-size: 300%;
     word-spacing: 4px;
     text-align: center;
     padding-bottom: 8%;
@@ -799,7 +836,7 @@ h1 {
   }
 
   .formTitles {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 200;
     margin-bottom: 10px;
     margin-top: 10px;
@@ -809,7 +846,7 @@ h1 {
   /* Responsive layout - makes about form title text fit better to scale */
   @media screen and (max-width: 1400px) {
     .formTitles {
-      font-size: 2rem;
+      font-size: 1.5rem;
     }
 
   #newsletter {
@@ -964,6 +1001,7 @@ h1 {
 
 
   #submit-btn input[type="submit"] {
+    font-family: 'Montserrat';
     cursor: pointer;
     width: 100%;
     height:auto;
@@ -1061,7 +1099,7 @@ h1 {
   color: black;
   max-width: 70%;
   margin-top: 50px;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin: 30px auto;
   margin-bottom: 100px;
   background-color: rgba(245, 245, 245, 0.89);
@@ -1210,7 +1248,7 @@ a:visited {
 
 
 .comNavLinks {
-  font-size: 4rem;
+  font-size: 3rem;
   padding-top: 150px;
 }
 
