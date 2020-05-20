@@ -26,6 +26,9 @@ const images = [
   { id: 16, thumbnail: "/Images/Portfolio-Work-Pics/16-1.jpg" ,fullSize: "/Images/Portfolio-Work-Pics/16-2.jpg" },
   { id: 17, thumbnail: "/Images/Portfolio-Work-Pics/17-1.jpg" ,fullSize: "/Images/Portfolio-Work-Pics/17-2.jpg" },
   { id: 18, thumbnail: "/Images/Portfolio-Work-Pics/18-1.jpg" ,fullSize: "/Images/Portfolio-Work-Pics/18-2.jpg" },
+  { id: 19, thumbnail: "/Images/Portfolio-Work-Pics/19-1.jpg" ,fullSize: "/Images/Portfolio-Work-Pics/19-2.jpg" },
+  { id: 20, thumbnail: "/Images/Portfolio-Work-Pics/20-1.jpg" ,fullSize: "/Images/Portfolio-Work-Pics/20-2.jpg" },
+  { id: 21, thumbnail: "/Images/Portfolio-Work-Pics/21-1.jpg" ,fullSize: "/Images/Portfolio-Work-Pics/21-2.jpg" },
 
 ]
 
