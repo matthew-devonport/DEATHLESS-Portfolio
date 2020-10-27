@@ -20,7 +20,7 @@
     "plugins": [
       "@babel/plugin-proposal-class-properties",
       "@babel/plugin-proposal-object-rest-spread"
-    ]
+    ],
   },
   "dependencies": {
     "axios": "^0.19.2",
